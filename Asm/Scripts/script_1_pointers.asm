@@ -1,0 +1,256 @@
+org 0x08760664
+  dw block_1_str_001
+org 0x08760668
+  dw block_1_str_002
+org 0x0876066C
+  dw block_1_str_003
+org 0x08760670
+  dw block_1_str_004
+org 0x08760674
+  dw block_1_str_005
+org 0x08760678
+  dw block_1_str_006
+org 0x0876067C
+  dw block_1_str_007
+org 0x08760680
+  dw block_1_str_008
+org 0x08760684
+  dw block_1_str_009
+org 0x08760688
+  dw block_1_str_010
+org 0x0876068C
+  dw block_1_str_011
+org 0x08760690
+  dw block_1_str_012
+org 0x08760694
+  dw block_1_str_013
+org 0x08760698
+  dw block_1_str_014
+org 0x0876069C
+  dw block_1_str_012
+org 0x087606A0
+  dw block_1_str_015
+org 0x087606A4
+  dw block_1_str_016
+org 0x087606A8
+  dw block_1_str_017
+org 0x087606AC
+  dw block_1_str_018
+org 0x087606B0
+  dw block_1_str_012
+org 0x087606B4
+  dw block_1_str_019
+org 0x087606B8
+  dw block_1_str_020
+org 0x087606BC
+  dw block_1_str_021
+org 0x087606C0
+  dw block_1_str_022
+org 0x087606C4
+  dw block_1_str_023
+org 0x087606C8
+  dw block_1_str_024
+org 0x087606CC
+  dw block_1_str_025
+org 0x087606D0
+  dw block_1_str_026
+org 0x087606D4
+  dw block_1_str_027
+org 0x087606D8
+  dw block_1_str_028
+org 0x087606DC
+  dw block_1_str_029
+org 0x087606E0
+  dw block_1_str_030
+org 0x087606E4
+  dw block_1_str_031
+org 0x087606E8
+  dw block_1_str_031
+org 0x087606EC
+  dw block_1_str_032
+org 0x087606F0
+  dw block_1_str_033
+org 0x087606F4
+  dw block_1_str_034
+org 0x087606F8
+  dw block_1_str_035
+org 0x087606FC
+  dw block_1_str_036
+org 0x08760700
+  dw block_1_str_037
+org 0x08760704
+  dw block_1_str_038
+org 0x08760708
+  dw block_1_str_039
+org 0x0876070C
+  dw block_1_str_040
+org 0x08760710
+  dw block_1_str_041
+org 0x08760714
+  dw block_1_str_042
+org 0x08760718
+  dw block_1_str_043
+org 0x0876071C
+  dw block_1_str_044
+org 0x08760720
+  dw block_1_str_045
+org 0x08760724
+  dw block_1_str_046
+org 0x08760728
+  dw block_1_str_047
+org 0x0876072C
+  dw block_1_str_048
+org 0x08760730
+  dw block_1_str_049
+org 0x08760734
+  dw block_1_str_050
+org 0x08760738
+  dw block_1_str_051
+org 0x0876073C
+  dw block_1_str_052
+org 0x08760740
+  dw block_1_str_053
+org 0x08760744
+  dw block_1_str_054
+org 0x08760748
+  dw block_1_str_055
+org 0x0876074C
+  dw block_1_str_056
+org 0x08760750
+  dw block_1_str_057
+org 0x08760754
+  dw block_1_str_058
+org 0x08760758
+  dw block_1_str_059
+org 0x0876075C
+  dw block_1_str_060
+org 0x08760760
+  dw block_1_str_061
+org 0x087F7740
+  .fill 132
+org 0x087F77C4
+  .fill 132
+org 0x087F7848
+  .fill 22
+org 0x087F785E
+  .fill 156
+org 0x087F78FA
+  .fill 34
+org 0x087F791C
+  .fill 156
+org 0x087F79B8
+  .fill 36
+org 0x087F79DC
+  .fill 30
+org 0x087F79FA
+  .fill 40
+org 0x087F7A22
+  .fill 34
+org 0x087F7A44
+  .fill 34
+org 0x087F7A66
+  .fill 44
+org 0x087F7A92
+  .fill 20
+org 0x087F7AA6
+  .fill 40
+org 0x087F7ACE
+  .fill 44
+org 0x087F7AFA
+  .fill 38
+org 0x087F7B20
+  .fill 30
+org 0x087F7B3E
+  .fill 28
+org 0x087F7B5A
+  .fill 42
+org 0x087F7B84
+  .fill 44
+org 0x087F7BB0
+  .fill 36
+org 0x087F7BD4
+  .fill 38
+org 0x087F7BFA
+  .fill 48
+org 0x087F7C2A
+  .fill 86
+org 0x087F7C80
+  .fill 82
+org 0x087F7CD2
+  .fill 84
+org 0x087F7D26
+  .fill 90
+org 0x087F7D80
+  .fill 84
+org 0x087F7DD4
+  .fill 88
+org 0x087F7E2C
+  .fill 86
+org 0x087F7E82
+  .fill 90
+org 0x087F7EDC
+  .fill 86
+org 0x087F7F32
+  .fill 124
+org 0x087F7FAE
+  .fill 124
+org 0x087F802A
+  .fill 144
+org 0x087F80BA
+  .fill 108
+org 0x087F8126
+  .fill 76
+org 0x087F8172
+  .fill 20
+org 0x087F8186
+  .fill 20
+org 0x087F819A
+  .fill 14
+org 0x087F81A8
+  .fill 18
+org 0x087F81BA
+  .fill 16
+org 0x087F81CA
+  .fill 18
+org 0x087F81DC
+  .fill 20
+org 0x087F81F0
+  .fill 20
+org 0x087F8204
+  .fill 64
+org 0x087F8244
+  .fill 30
+org 0x087F8262
+  .fill 40
+org 0x087F828A
+  .fill 36
+org 0x087F82AE
+  .fill 28
+org 0x087F82CA
+  .fill 34
+org 0x087F82EC
+  .fill 28
+org 0x087F8308
+  .fill 28
+org 0x087F8324
+  .fill 28
+org 0x087F8340
+  .fill 28
+org 0x087F835C
+  .fill 30
+org 0x087F837A
+  .fill 30
+org 0x087F8398
+  .fill 30
+org 0x087F83B6
+  .fill 30
+org 0x087F83D4
+  .fill 30
+org 0x087F83F2
+  .fill 30
+org 0x087F8410
+  .fill 30
+org 0x087F842E
+  .fill 30
+org 0x087F844C
+  .fill 30

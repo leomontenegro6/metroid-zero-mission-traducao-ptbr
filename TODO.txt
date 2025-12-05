@@ -1,0 +1,7 @@
+- Fazer correções de padronização:
+  - Metróide -> Metroide (sem acento)
+  - Forma Esférica -> Morfosfera
+  - Traje Climático -> Traje Varia
+  - Power Bomb -> ?
+- Desabreviar "Bomba Pot." pra "Bomba Potente", igual foi feito no Metroid Fusion
+- Rever possibilidade de mexer no Metroid de NES comprimido, dentro do Zero Mission.

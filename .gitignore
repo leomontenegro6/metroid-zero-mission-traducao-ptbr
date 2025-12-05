@@ -1,0 +1,9 @@
+/*.gba
+/*.gba.pal
+/*.gba.spr
+/*.gba.bak
+/*.ss*
+*.sav
+/Graficos/Editados/*.lz
+test.bat
+copy_rom_to_anbernic.bat

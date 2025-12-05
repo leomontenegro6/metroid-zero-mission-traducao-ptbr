@@ -1,0 +1,248 @@
+org 0x087609A8
+  dw block_2_str_001
+org 0x087609AC
+  dw block_2_str_002
+org 0x087609B0
+  dw block_2_str_003
+org 0x087609B4
+  dw block_2_str_004
+org 0x087609B8
+  dw block_2_str_005
+org 0x087609BC
+  dw block_2_str_006
+org 0x087609C0
+  dw block_2_str_007
+org 0x087609C4
+  dw block_2_str_008
+org 0x087609C8
+  dw block_2_str_009
+org 0x087609CC
+  dw block_2_str_010
+org 0x087609D0
+  dw block_2_str_011
+org 0x087609D4
+  dw block_2_str_012
+org 0x087609D8
+  dw block_2_str_013
+org 0x087609DC
+  dw block_2_str_014
+org 0x087609E0
+  dw block_2_str_015
+org 0x087609E4
+  dw block_2_str_016
+org 0x087609E8
+  dw block_2_str_017
+org 0x087609EC
+  dw block_2_str_018
+org 0x087609F0
+  dw block_2_str_019
+org 0x087609F4
+  dw block_2_str_020
+org 0x087609F8
+  dw block_2_str_021
+org 0x087609FC
+  dw block_2_str_022
+org 0x08760A00
+  dw block_2_str_023
+org 0x08760A04
+  dw block_2_str_024
+org 0x08760A08
+  dw block_2_str_025
+org 0x08760A0C
+  dw block_2_str_026
+org 0x08760A10
+  dw block_2_str_027
+org 0x08760A14
+  dw block_2_str_028
+org 0x08760A18
+  dw block_2_str_029
+org 0x08760A1C
+  dw block_2_str_030
+org 0x08760A20
+  dw block_2_str_031
+org 0x08760A24
+  dw block_2_str_032
+org 0x08760A28
+  dw block_2_str_033
+org 0x08760A2C
+  dw block_2_str_034
+org 0x08760A30
+  dw block_2_str_035
+org 0x08760A34
+  dw block_2_str_036
+org 0x08760A38
+  dw block_2_str_037
+org 0x08760A3C
+  dw block_2_str_038
+org 0x08760A40
+  dw block_2_str_039
+org 0x08760A44
+  dw block_2_str_040
+org 0x08760A48
+  dw block_2_str_041
+org 0x08760A4C
+  dw block_2_str_042
+org 0x08760A50
+  dw block_2_str_043
+org 0x08760A54
+  dw block_2_str_044
+org 0x08760A58
+  dw block_2_str_045
+org 0x08760A5C
+  dw block_2_str_046
+org 0x08760A60
+  dw block_2_str_047
+org 0x08760A64
+  dw block_2_str_048
+org 0x08760A68
+  dw block_2_str_049
+org 0x08760A6C
+  dw block_2_str_050
+org 0x08760A70
+  dw block_2_str_051
+org 0x08760A74
+  dw block_2_str_052
+org 0x08760A78
+  dw block_2_str_053
+org 0x08760A7C
+  dw block_2_str_054
+org 0x08760A80
+  dw block_2_str_055
+org 0x08760A84
+  dw block_2_str_056
+org 0x08760A88
+  dw block_2_str_057
+org 0x08760A8C
+  dw block_2_str_058
+org 0x08760A90
+  dw block_2_str_059
+org 0x08760A94
+  dw block_2_str_060
+org 0x08760A98
+  dw block_2_str_061
+org 0x08760A9C
+  dw block_2_str_062
+org 0x087F846A
+  .fill 146
+org 0x087F84FC
+  .fill 192
+org 0x087F85BC
+  .fill 216
+org 0x087F8694
+  .fill 148
+org 0x087F8728
+  .fill 122
+org 0x087F87A2
+  .fill 110
+org 0x087F8810
+  .fill 144
+org 0x087F88A0
+  .fill 96
+org 0x087F8900
+  .fill 160
+org 0x087F89A0
+  .fill 146
+org 0x087F8A32
+  .fill 216
+org 0x087F8B0A
+  .fill 146
+org 0x087F8B9C
+  .fill 116
+org 0x087F8C10
+  .fill 148
+org 0x087F8CA4
+  .fill 146
+org 0x087F8D36
+  .fill 100
+org 0x087F8D9A
+  .fill 188
+org 0x087F8E56
+  .fill 122
+org 0x087F8ED0
+  .fill 150
+org 0x087F8F66
+  .fill 490
+org 0x087F9150
+  .fill 566
+org 0x087F9386
+  .fill 120
+org 0x087F93FE
+  .fill 40
+org 0x087F9426
+  .fill 118
+org 0x087F949C
+  .fill 100
+org 0x087F9500
+  .fill 66
+org 0x087F9542
+  .fill 82
+org 0x087F9594
+  .fill 80
+org 0x087F95E4
+  .fill 102
+org 0x087F964A
+  .fill 82
+org 0x087F969C
+  .fill 116
+org 0x087F9710
+  .fill 106
+org 0x087F977A
+  .fill 106
+org 0x087F97E4
+  .fill 106
+org 0x087F984E
+  .fill 84
+org 0x087F98A2
+  .fill 84
+org 0x087F98F6
+  .fill 84
+org 0x087F994A
+  .fill 112
+org 0x087F99BA
+  .fill 88
+org 0x087F9A12
+  .fill 40
+org 0x087F9A3A
+  .fill 84
+org 0x087F9A8E
+  .fill 76
+org 0x087F9ADA
+  .fill 76
+org 0x087F9B26
+  .fill 98
+org 0x087F9B88
+  .fill 162
+org 0x087F9C2A
+  .fill 68
+org 0x087F9C6E
+  .fill 112
+org 0x087F9CDE
+  .fill 34
+org 0x087F9D00
+  .fill 152
+org 0x087F9D98
+  .fill 50
+org 0x087F9DCA
+  .fill 66
+org 0x087F9E0C
+  .fill 92
+org 0x087F9E68
+  .fill 28
+org 0x087F9E84
+  .fill 34
+org 0x087F9EA6
+  .fill 18
+org 0x087F9EB8
+  .fill 84
+org 0x087F9F0C
+  .fill 68
+org 0x087F9F50
+  .fill 154
+org 0x087F9FEA
+  .fill 90
+org 0x087FA044
+  .fill 124
+org 0x087FA0C0
+  .fill 104
+org 0x087FA128
+  .fill 108
