@@ -63,7 +63,7 @@ echo ==Expandindo a rom para 16mb.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\expansor_rom.asm
 
 echo ==Aplicando patches de graficos editados.==
-.\Ferramentas\flips.exe --apply .\mzm_graphics.ips .\mzm.gba .\mzm.gba
+.\Ferramentas\flips.exe --apply .\mzm_moved_graphics_16mb.ips .\mzm.gba .\mzm.gba
 call inserir_novos_graficos.bat
 
 echo ==Inserindo textos traduzidos.==

@@ -25,7 +25,7 @@ block_1_str_005:
 
 block_1_str_006:
   .stringn "<09><80><05><81>Tanque de Bombas Potentes adquirido.", 0x00, 0xFE
-  .stringn "<07><80><00><81>Capacidade de Bombas Pot. aumentada."
+  .stringn "<00><80><00><81>Capacidade<8301>de<8301>Bombas<8301>Potentes<8301>aumentada."
   db 0x00, 0xFF
 
 block_1_str_007:
@@ -64,12 +64,12 @@ block_1_str_013:
   db 0x00, 0xFF
 
 block_1_str_014:
-  .stringn "<49><80><05><81>Traje Varia", 0x00, 0xFE
+  .stringn "<50><80><05><81>Traje Varia", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_015:
-  .stringn "<4A><80><05><81>Morfosfera", 0x00, 0xFE
+  .stringn "<51><80><05><81>Morfosfera", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -89,7 +89,7 @@ block_1_str_018:
   db 0x00, 0xFF
 
 block_1_str_019:
-  .stringn "<4A><80><05><81>Garra de Força", 0x00, 0xFE
+  .stringn "<45><80><05><81>Garra de Força", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 

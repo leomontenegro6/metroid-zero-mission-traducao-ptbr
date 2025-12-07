@@ -5,7 +5,7 @@
 .include "./Asm/Scripts/script_1_pointers.asm"
 .include "./Asm/Scripts/script_2_pointers.asm"
 
-.org 0x08FEECE4
+.org 0x08FDE2CC
 .include "./Asm/Scripts/script_1.asm"
 .include "./Asm/Scripts/script_2.asm"
 
