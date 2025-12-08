@@ -14,22 +14,24 @@ block_1_str_003:
   db 0x00, 0xFF
 
 block_1_str_004:
-  .stringn "<12><80><05><81>Tanque de Super Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<04><80><00><81>Capacidade de Super Mísseis aumentada."
+  .stringn "<15><80><05><81>Tanque de Supermísseis adquirido.", 0x00, 0xFE
+  .stringn "<07><80><00><81>Capacidade de Supermísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_005:
-  .stringn "<50><80><05><81>Super Míssil", 0x00, 0xFE
+  .stringn "<53><80><05><81>Supermíssil", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_006:
-  .stringn "<09><80><05><81>Tanque de Bombas Potentes adquirido.", 0x00, 0xFE
-  .stringn "<00><80><00><81>Capacidade<8301>de<8301>Bombas<8301>Potentes<8301>aumentada."
+  .loadtable "./Tabelas/mzm_fonte_fina.tbl"
+  .stringn "<12><80><05><81>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
+  .stringn "<06><80><00><81>Capacidade de Bombas Energéticas aumentada."
   db 0x00, 0xFF
+  .loadtable "./Tabelas/mzm.tbl"
 
 block_1_str_007:
-  .stringn "<48><80><05><81>Bomba Potente", 0x00, 0xFE
+  .stringn "<40><80><05><81>Bomba Energética", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 

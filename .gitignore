@@ -5,5 +5,6 @@
 /*.ss*
 *.sav
 /Graficos/Editados/*.lz
+/Arquivos Patches/*/*.gba
 test.bat
 copy_rom_to_anbernic.bat
