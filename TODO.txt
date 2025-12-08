@@ -1,4 +1,6 @@
 - Fazer correções de padronização:
   - Metróide -> Metroide (sem acento)
   - Power Bomb -> ?
+- Tornar a tradução compatível com o Project ZM
+- Tornar a tradução compatível com o Super Metroid Revamp
 - Rever possibilidade de mexer no Metroid de NES comprimido, dentro do Zero Mission.

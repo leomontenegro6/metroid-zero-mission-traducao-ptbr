@@ -69,4 +69,9 @@ call inserir_novos_graficos.bat
 echo ==Inserindo textos traduzidos.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos.asm
 
+if !randomizer! equ 1 (
+    echo ==Aplicando fixes pos-randomizer.==
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_randomizer.asm
+)
+
 echo Done.
