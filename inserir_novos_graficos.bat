@@ -5,14 +5,20 @@
 @echo off
 echo ==Atualizando imagens comprimidas.==
 
-copy ".\Graficos\Editados\Nomes habilidades 1.gba" ".\Graficos\Editados\Nomes habilidades 1.lz"
-.\Ferramentas\lzss.exe -evn ".\Graficos\Editados\Nomes habilidades 1.lz"
+set LISTA="Nomes habilidades 1"^
+    "Nomes habilidades 2"^
+    "Nomes habilidades 3"^
+    "Tela-titulo (projectzm)"^
+    "Dados da Samus (projectzm)"^
+    "Nomes menus (projectzm)"^
+    "Nomes menus 2 (projectzm)"
 
-copy ".\Graficos\Editados\Nomes habilidades 2.gba" ".\Graficos\Editados\Nomes habilidades 2.lz"
-.\Ferramentas\lzss.exe -evn ".\Graficos\Editados\Nomes habilidades 2.lz"
+for %%A in (%LISTA%) do (
+    echo Processando %%~A...
 
-copy ".\Graficos\Editados\Nomes habilidades 3.gba" ".\Graficos\Editados\Nomes habilidades 3.lz"
-.\Ferramentas\lzss.exe -evn ".\Graficos\Editados\Nomes habilidades 3.lz"
+    copy ".\Graficos\Editados\%%~A.gba" ".\Graficos\Editados\%%~A.lz"
+    .\Ferramentas\lzss.exe -evn ".\Graficos\Editados\%%~A.lz"
+)
 
 echo ==Inserindo novos graficos.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\graficos.asm

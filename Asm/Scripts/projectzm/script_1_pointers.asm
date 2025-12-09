@@ -1,0 +1,128 @@
+org 0x08760664
+  dw block_1_str_001
+org 0x08760668
+  dw block_1_str_002
+org 0x0876066C
+  dw block_1_str_003
+org 0x08760670
+  dw block_1_str_004
+org 0x08760674
+  dw block_1_str_005
+org 0x08760678
+  dw block_1_str_006
+org 0x0876067C
+  dw block_1_str_007
+org 0x08760680
+  dw block_1_str_008
+org 0x08760684
+  dw block_1_str_009
+org 0x08760688
+  dw block_1_str_010
+org 0x0876068C
+  dw block_1_str_011
+org 0x08760690
+  dw block_1_str_012
+org 0x08760694
+  dw block_1_str_013
+org 0x08760698
+  dw block_1_str_014
+org 0x0876069C
+  dw block_1_str_015
+org 0x087606A0
+  dw block_1_str_016
+org 0x087606A4
+  dw block_1_str_017
+org 0x087606A8
+  dw block_1_str_018
+org 0x087606AC
+  dw block_1_str_019
+org 0x087606B0
+  dw block_1_str_020
+org 0x087606B4
+  dw block_1_str_021
+org 0x087606B8
+  dw block_1_str_022
+org 0x087606BC
+  dw block_1_str_023
+org 0x087606C0
+  dw block_1_str_024
+org 0x087606C4
+  dw block_1_str_025
+org 0x087606C8
+  dw block_1_str_026
+org 0x087606CC
+  dw block_1_str_027
+org 0x087606D0
+  dw block_1_str_028
+org 0x087606D4
+  dw block_1_str_029
+org 0x087606D8
+  dw block_1_str_030
+org 0x087606DC
+  dw block_1_str_031
+org 0x087606E0
+  dw block_1_str_032
+org 0x087606E4
+  dw block_1_str_033
+org 0x087606E8
+  dw block_1_str_033
+org 0x087606EC
+  dw block_1_str_034
+org 0x087606F0
+  dw block_1_str_035
+org 0x087606F4
+  dw block_1_str_036
+org 0x087606F8
+  dw block_1_str_037
+org 0x087606FC
+  dw block_1_str_038
+org 0x08760700
+  dw block_1_str_039
+org 0x08760704
+  dw block_1_str_040
+org 0x08760708
+  dw block_1_str_041
+org 0x0876070C
+  dw block_1_str_042
+org 0x08760710
+  dw block_1_str_043
+org 0x08760714
+  dw block_1_str_044
+org 0x08760718
+  dw block_1_str_045
+org 0x0876071C
+  dw block_1_str_046
+org 0x08760720
+  dw block_1_str_047
+org 0x08760724
+  dw block_1_str_048
+org 0x08760728
+  dw block_1_str_049
+org 0x0876072C
+  dw block_1_str_050
+org 0x08760730
+  dw block_1_str_051
+org 0x08760734
+  dw block_1_str_052
+org 0x08760738
+  dw block_1_str_053
+org 0x0876073C
+  dw block_1_str_054
+org 0x08760740
+  dw block_1_str_055
+org 0x08760744
+  dw block_1_str_056
+org 0x08760748
+  dw block_1_str_057
+org 0x0876074C
+  dw block_1_str_058
+org 0x08760750
+  dw block_1_str_059
+org 0x08760754
+  dw block_1_str_060
+org 0x08760758
+  dw block_1_str_061
+org 0x0876075C
+  dw block_1_str_062
+org 0x08760760
+  dw block_1_str_063

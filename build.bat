@@ -67,11 +67,20 @@ echo ==Aplicando patches de graficos editados.==
 call inserir_novos_graficos.bat
 
 echo ==Inserindo textos traduzidos.==
-.\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos.asm
+if !projectzm! equ 1 (
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_projectzm.asm
+) else (
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_vanilla.asm
+)
 
 if !randomizer! equ 1 (
     echo ==Aplicando fixes pos-randomizer.==
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_randomizer.asm
+)
+
+if !projectzm! equ 1 (
+    echo ==Aplicando fixes pos-projectzm.==
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_projectzm.asm
 )
 
 echo Done.
