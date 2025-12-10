@@ -10,7 +10,7 @@ block_1_str_002:
 
 block_1_str_003:
   .stringn "<00><80><06><81>Míssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <06><81>escotilhas vermelhas<00><81>."
+  .stringn "<00><80>Destrói certos blocos e abre <06><81>portas vermelhas<00><81>."
   db 0x00, 0xFF
 
 block_1_str_004:
@@ -20,7 +20,7 @@ block_1_str_004:
 
 block_1_str_005:
   .stringn "<00><80><08><81>Supermíssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <08><81>escotilhas verdes<00><81>."
+  .stringn "<00><80>Destrói certos blocos e abre <08><81>portas verdes<00><81>."
   db 0x00, 0xFF
 
 block_1_str_006:
@@ -30,12 +30,12 @@ block_1_str_006:
 
 block_1_str_007:
   .stringn "<00><80><05><81>Bomba Energética<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <05><81>escotilhas amarelas<00><81>."
+  .stringn "<00><80>Destrói certos blocos e abre <05><81>portas amarelas<00><81>."
   db 0x00, 0xFF
 
 block_1_str_008:
   .stringn "<00><80><06><81>Raio Longo<00><81>", 0x00, 0xFE
-  .stringn "<00><29><80>Tiros atravessam distâncias maiores."
+  .stringn "<00><80>Tiros atravessam distâncias maiores."
   db 0x00, 0xFF
 
 block_1_str_009:
@@ -85,7 +85,7 @@ block_1_str_017:
 
 block_1_str_018:
   .stringn "<00><80><05><81>Pulo Alto<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Altura do pulo aumentada. Pode pular em Morfosfera."
+  .stringn "<00><80>Altura do pulo aumentada. Pula em Morfosfera."
   db 0x00, 0xFF
 
 block_1_str_019:
@@ -95,7 +95,7 @@ block_1_str_019:
 
 block_1_str_020:
   .stringn "<00><80><07><81>Salto Espacial<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Aperte <A> para dar cambalhotas continuamente no ar."
+  .stringn "<00><80>Aperte <A> para pulos giratórios seguidos no ar."
   db 0x00, 0xFF
 
 block_1_str_021:

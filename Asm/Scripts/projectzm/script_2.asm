@@ -19,11 +19,11 @@ block_2_str_005:
   db 0x00, 0xFF
 
 block_2_str_006:
-  .stringn "Destrói certos blocos e abre <06><81>escotilhas vermelhas<00><81>."
+  .stringn "Destrói certos blocos e abre <06><81>portas vermelhas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_007:
-  .stringn "Destrói certos blocos e abre <08><81>escotilhas verdes<00><81>."
+  .stringn "Destrói certos blocos e abre <08><81>portas verdes<00><81>."
   db 0x00, 0xFF
 
 block_2_str_008:
@@ -31,7 +31,7 @@ block_2_str_008:
   db 0x00, 0xFF
 
 block_2_str_009:
-  .stringn "Destrói certos blocos e abre <05><81>escotilhas amarelas<00><81>."
+  .stringn "Destrói certos blocos e abre <05><81>portas amarelas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_010:
@@ -55,7 +55,7 @@ block_2_str_014:
   db 0x00, 0xFF
 
 block_2_str_015:
-  .stringn "Altura do pulo aumentada. Pode pular em Morfosfera."
+  .stringn "Altura do pulo aumentada. Pula em Morfosfera."
   db 0x00, 0xFF
 
 block_2_str_016:
@@ -63,7 +63,7 @@ block_2_str_016:
   db 0x00, 0xFF
 
 block_2_str_017:
-  .stringn "Aperte <A> para dar cambalhotas continuamente no ar."
+  .stringn "Aperte <A> para pulos giratórios seguidos no ar."
   db 0x00, 0xFF
 
 block_2_str_018:
