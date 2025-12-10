@@ -1,311 +1,314 @@
 block_2_str_001:
-  .stringn "Shots travel longer distances."
+  .stringn "Tiros atravessam distâncias maiores."
   db 0x00, 0xFF
 
 block_2_str_002:
-  .stringn "Hold <B> to charge. Release to fire."
+  .stringn "Segure <B> para carregar. Solte para atirar."
   db 0x00, 0xFF
 
 block_2_str_003:
-  .stringn "Freeze enemies & use them as platforms."
+  .stringn "Congele inimigos e use-os como plataformas."
   db 0x00, 0xFF
 
 block_2_str_004:
-  .stringn "Shots are widened and phase through walls."
+  .stringn "Tiros amplos que atravessam paredes."
   db 0x00, 0xFF
 
 block_2_str_005:
-  .stringn "Shots pierce through multiple enemies."
+  .stringn "Tiros atravessam múltiplos inimigos."
   db 0x00, 0xFF
 
 block_2_str_006:
-  .stringn "Break certain blocks and open <06><81>red hatches<00><81>."
+  .stringn "Destrói certos blocos e abre <06><81>escotilhas vermelhas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_007:
-  .stringn "Break certain blocks and open <08><81>green hatches<00><81>."
+  .stringn "Destrói certos blocos e abre <08><81>escotilhas verdes<00><81>."
   db 0x00, 0xFF
 
 block_2_str_008:
-  .stringn "Press <B> in Morph Ball form to set."
+  .stringn "Aperte <B> na Morfosfera para plantar."
   db 0x00, 0xFF
 
 block_2_str_009:
-  .stringn "Break certain blocks and open <05><81>yellow hatches<00><81>."
+  .stringn "Destrói certos blocos e abre <05><81>escotilhas amarelas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_010:
-  .stringn "Prevents damage from acid and heat."
+  .stringn "Protege o corpo contra ácido e calor."
   db 0x00, 0xFF
 
 block_2_str_011:
-  .stringn "Frees movement in liquids."
+  .stringn "Permite livre movimento em líquidos."
   db 0x00, 0xFF
 
 block_2_str_012:
-  .stringn "Double-tap <down> to access narrow passageways."
+  .stringn "<down> duas vezes: acessar passagens estreitas."
   db 0x00, 0xFF
 
 block_2_str_013:
-  .stringn "Grab and hang from ledges and corners."
+  .stringn "Agarre e pendure-se em bordas e extremidades."
   db 0x00, 0xFF
 
 block_2_str_014:
-  .stringn "Run to break certain blocks and damage enemies."
+  .stringn "Corra para destruir certos blocos e inimigos."
   db 0x00, 0xFF
 
 block_2_str_015:
-  .stringn "Jump height increased. Adds Morph Ball jumping."
+  .stringn "Altura do pulo aumentada. Pode pular em Morfosfera."
   db 0x00, 0xFF
 
 block_2_str_016:
-  .stringn "Damage enemies while somersaulting."
+  .stringn "Destrói inimigos em pulos giratórios."
   db 0x00, 0xFF
 
 block_2_str_017:
-  .stringn "Press <A> mid-spin to somersault continually."
+  .stringn "Aperte <A> para dar cambalhotas continuamente no ar."
   db 0x00, 0xFF
 
 block_2_str_018:
-  .stringn "<06><81>Analysis inconclusive.<00>A<FE>Item incompatible with current suit."
+  .stringn "<06><81>Análise inconclusiva.<00><81>", 0x00, 0xFE
+  .stringn "Item incompatível com o traje atual."
   db 0x00, 0xFF
 
 block_2_str_019:
-  .stringn "<06><81>Stun<00><81> enemies with <05><81>Auto-charge shots<00><81>."
+  .stringn "<06><81>Paralisa<00><81> inimigos com <05><81>tiros carregados<00><81>."
   db 0x00, 0xFF
 
 block_2_str_020:
-  .stringn "     Planet Zebes... I called this place home", 0x00, 0xFE
-  .stringn "     once, in peaceful times, long before evil", 0x00, 0xFE
-  .stringn "     haunted the caverns below. Now, I shall", 0x00, 0xFE
-  .stringn "     finally tell the tale of my first battle", 0x00, 0xFE
-  .stringn "     here... My so-called Zero Mission.", 0x00, 0xFE
-  .stringn "                                    -Samus Aran-"
+  .stringn "     Planeta Zebes... Em tempos de paz,", 0x00, 0xFE
+  .stringn "     muito antes da desgraça assolar suas", 0x00, 0xFE
+  .stringn "     cavernas, já o considerei um lar.", 0x00, 0xFE
+  .stringn "     Agora, por fim, narrarei a história", 0x00, 0xFE
+  .stringn "     da minha primeira batalha aqui...", 0x00, 0xFE
+  .stringn "     Minha assim chamada Missão Zero.", 0x00, 0xFE
+  .stringn "                            -Samus Aran-"
   db 0x00, 0xFF
 
 block_2_str_021:
-  .stringn "     The timing of my escape couldn't have", 0x00, 0xFE
-  .stringn "     been worse. I was attacked by Space", 0x00, 0xFE
-  .stringn "     Pirates and left nearly defenseless,", 0x00, 0xFE
-  .stringn "     stripped of my Power Suit. All I had for", 0x00, 0xFE
-  .stringn "     protection was my rather useless", 0x00, 0xFE
-  .stringn "     emergency pistol. Infiltrating the Space", 0x00, 0xFE
-  .stringn "     Pirate Mother Ship so armed may have", 0x00, 0xFE
-  .stringn "     been foolish, but I had no choice..."
+  .stringn "     Minha fuga não poderia ter sido pior.", 0x00, 0xFE
+  .stringn "     Fui atacada por Piratas Espaciais e", 0x00, 0xFE
+  .stringn "     fiquei quase indefesa, sem meu Traje", 0x00, 0xFE
+  .stringn "     de Força. Só restava minha pistola de", 0x00, 0xFE
+  .stringn "     emergência, que certamente seria inútil.", 0x00, 0xFE
+  .stringn "     Infiltrar-me na Nave Mãe deles tão", 0x00, 0xFE
+  .stringn "     <1E><04>bem munida\" era suicídio, mas não", 0x00, 0xFE
+  .stringn "     havia outra escolha..."
   db 0x00, 0xFF
 
 block_2_str_022:
-  .stringn "     Could I survive long enough to escape?"
+  .stringn "     Serei capaz de sobreviver até a hora da fuga?"
   db 0x00, 0xFF
 
 block_2_str_023:
-  .stringn "Emergency Order"
+  .stringn "Ordem de Urgência"
   db 0x00, 0xFF
 
 block_2_str_024:
-  .stringn "Exterminate all Metroid organisms", 0x00, 0xFE
-  .stringn "on Planet Zebes..."
+  .stringn "Eliminar todos os seres", 0x00, 0xFE
+  .stringn "Metroides do Planeta Zebes..."
   db 0x00, 0xFF
 
 block_2_str_025:
-  .stringn "And defeat the mechanical life-form,", 0x00, 0xFE
-  .stringn "Mother Brain."
+  .stringn "E destruir o Cérebro-Mãe,", 0x00, 0xFE
+  .stringn "a forma vital mecânica."
   db 0x00, 0xFF
 
 block_2_str_026:
-  .stringn "Start Game", 0x00, 0xFE
-  .stringn "Start Game (Link)"
+  .stringn "Iniciar Jogo", 0x00, 0xFE
+  .stringn "Iniciar Jogo (Link)"
   db 0x00, 0xFF
 
 block_2_str_027:
-  .stringn "Choose a data file", 0x00, 0xFE
-  .stringn "to copy."
+  .stringn "Escolha um arquivo de", 0x00, 0xFE
+  .stringn "dados para copiar."
   db 0x00, 0xFF
 
 block_2_str_028:
-  .stringn "Choose a file to copy", 0x00, 0xFE
-  .stringn "the data to."
+  .stringn "Escolha o arquivo de", 0x00, 0xFE
+  .stringn "destino dos dados."
   db 0x00, 0xFF
 
 block_2_str_029:
-  .stringn "OK to copy over", 0x00, 0xFE
-  .stringn "this data?", 0x00, 0xFE
-  .stringn "<00><04><00><04><00><04><00><04><00><04>Yes<00><04><00><04> <00><04>No"
+  .stringn "Tem certeza que quer", 0x00, 0xFE
+  .stringn "sobrescrever?", 0x00, 0xFE
+  .stringn "<00><04><00><04><00><04><00><04><00><04>Sim<00><04><00><04> <00><04>Não"
   db 0x00, 0xFF
 
 block_2_str_030:
-  .stringn "Choose a data file to", 0x00, 0xFE
-  .stringn "erase."
+  .stringn "Escolha um arquivo de", 0x00, 0xFE
+  .stringn "dados para apagar."
   db 0x00, 0xFF
 
 block_2_str_031:
-  .stringn "OK to erase this", 0x00, 0xFE
-  .stringn "data file?", 0x00, 0xFE
-  .stringn "<00><04><00><04><00><04><00><04><00><04>Yes<00><04><00><04> <00><04>No"
+  .stringn "Tem certeza que quer", 0x00, 0xFE
+  .stringn "apagar esse arquivo?", 0x00, 0xFE
+  .stringn "<00><04><00><04><00><04><00><04><00><04>Sim<00><04><00><04> <00><04>Não"
   db 0x00, 0xFF
 
 block_2_str_032:
-  .stringn "File A is corrupted.", 0x00, 0xFE
-  .stringn "Reverting to past data."
+  .stringn "Arquivo A corrompido.", 0x00, 0xFE
+  .stringn "Revertendo para dados antigos."
   db 0x00, 0xFF
 
 block_2_str_033:
-  .stringn "File B is corrupted.", 0x00, 0xFE
-  .stringn "Reverting to past data."
+  .stringn "Arquivo B corrompido.", 0x00, 0xFE
+  .stringn "Revertendo para dados antigos."
   db 0x00, 0xFF
 
 block_2_str_034:
-  .stringn "File C is corrupted.", 0x00, 0xFE
-  .stringn "Reverting to past data."
+  .stringn "Arquivo C corrompido.", 0x00, 0xFE
+  .stringn "Revertendo para dados antigos."
   db 0x00, 0xFF
 
 block_2_str_035:
-  .stringn "File A is corrupted.", 0x00, 0xFE
-  .stringn "Erasing File A..."
+  .stringn "Arquivo A corrompido.", 0x00, 0xFE
+  .stringn "Apagando arquivo..."
   db 0x00, 0xFF
 
 block_2_str_036:
-  .stringn "File B is corrupted.", 0x00, 0xFE
-  .stringn "Erasing File B..."
+  .stringn "Arquivo B corrompido.", 0x00, 0xFE
+  .stringn "Apagando arquivo..."
   db 0x00, 0xFF
 
 block_2_str_037:
-  .stringn "File C is corrupted.", 0x00, 0xFE
-  .stringn "Erasing File C..."
+  .stringn "Arquivo C corrompido.", 0x00, 0xFE
+  .stringn "Apagando arquivo..."
   db 0x00, 0xFF
 
 block_2_str_038:
-  .stringn "OK to erase all Samus data", 0x00, 0xFE
-  .stringn "and reformat save files?"
+  .stringn "Tem certeza que quer apagar", 0x00, 0xFE
+  .stringn "tudo e reformatar arquivos?"
   db 0x00, 0xFF
 
 block_2_str_039:
-  .stringn "OK to erase all Samus", 0x00, 0xFE
-  .stringn "save data?"
+  .stringn "Tem certeza que quer", 0x00, 0xFE
+  .stringn "apagar todos os dados?"
   db 0x00, 0xFF
 
 block_2_str_040:
-  .stringn "Continue", 0x00, 0xFE
-  .stringn "New Game+"
+  .stringn "Continuar", 0x00, 0xFE
+  .stringn "Novo Jogo+"
   db 0x00, 0xFF
 
 block_2_str_041:
-  .stringn "Continue", 0x00, 0xFE
-  .stringn "New Game+", 0x00, 0xFE
-  .stringn "New Time Attack"
+  .stringn "Continuar", 0x00, 0xFE
+  .stringn "Novo Jogo+", 0x00, 0xFE
+  .stringn "Novo Jogo (Modo Tempo)"
   db 0x00, 0xFF
 
 block_2_str_042:
-  .stringn "Message Options", 0x00, 0xFE
+  .stringn "Opções de Mensagem", 0x00, 0xFE
   .stringn "  Kanji", 0x00, 0xFE
   .stringn "  Hiragana"
   db 0x00, 0xFF
 
 block_2_str_043:
-  .stringn "Difficulty Setting", 0x00, 0xFE
-  .stringn "  EASY", 0x00, 0xFE
+  .stringn "Nível de Dificuldade", 0x00, 0xFE
+  .stringn "  FÁCIL", 0x00, 0xFE
   .stringn "  NORMAL"
   db 0x00, 0xFF
 
 block_2_str_044:
-  .stringn "Difficulty Level", 0x00, 0xFE
-  .stringn "  EASY", 0x00, 0xFE
+  .stringn "Ajuste de Dificuldade", 0x00, 0xFE
+  .stringn "  FÁCIL", 0x00, 0xFE
   .stringn "  NORMAL", 0x00, 0xFE
-  .stringn "  HARD"
+  .stringn "  DIFÍCIL"
   db 0x00, 0xFF
 
 block_2_str_045:
-  .stringn "OK to erase all saved", 0x00, 0xFE
-  .stringn "data?", 0x00, 0xFE
-  .stringn "(     will not be erased.)", 0x00, 0xFE
-  .stringn "      Yes       No"
+  .stringn "Tem certeza que quer", 0x00, 0xFE
+  .stringn "apagar dados salvos?", 0x00, 0xFE
+  .stringn "(     não será apagado.)", 0x00, 0xFE
+  .stringn "      Sim       Não"
   db 0x00, 0xFF
 
 block_2_str_046:
-  .stringn "Linking...", 0x00, 0xFE
-  .stringn "Please wait a moment."
+  .stringn "Conectando...", 0x00, 0xFE
+  .stringn "Aguarde um momento."
   db 0x00, 0xFF
 
 block_2_str_047:
-  .stringn "Unable to detect a", 0x00, 0xFE
-  .stringn "Metroid Fusion", 0x00, 0xFE
-  .stringn "Game Pak."
+  .stringn "Incapaz de detectar", 0x00, 0xFE
+  .stringn "um cartucho do jogo", 0x00, 0xFE
+  .stringn "Metroid Fusion."
   db 0x00, 0xFF
 
 block_2_str_048:
-  .stringn "Linking error."
+  .stringn "Erro de conexão."
   db 0x00, 0xFF
 
 block_2_str_049:
-  .stringn "Turn the system OFF", 0x00, 0xFE
-  .stringn "and confirm that the", 0x00, 0xFE
-  .stringn "Game Link cable is", 0x00, 0xFE
-  .stringn "properly connected."
+  .stringn "Desligue o portátil", 0x00, 0xFE
+  .stringn "e confirme se o", 0x00, 0xFE
+  .stringn "cabo Link está conec-", 0x00, 0xFE
+  .stringn "tado devidamente."
   db 0x00, 0xFF
 
 block_2_str_050:
-  .stringn "Do not turn the", 0x00, 0xFE
-  .stringn "POWER OFF."
+  .stringn "NÃO DESLIGUE o", 0x00, 0xFE
+  .stringn "portátil."
   db 0x00, 0xFF
 
 block_2_str_051:
-  .stringn "Data upload", 0x00, 0xFE
-  .stringn "complete."
+  .stringn "Transferência de dados", 0x00, 0xFE
+  .stringn "completa."
   db 0x00, 0xFF
 
 block_2_str_052:
-  .stringn "Link complete. You may turn POWER OFF."
+  .stringn "Conexão completada. Pode desligar o portátil."
   db 0x00, 0xFF
 
 block_2_str_053:
-  .stringn "<17><80>Best Time"
+  .stringn "<17><80>Melhor Tempo"
   db 0x00, 0xFF
 
 block_2_str_054:
-  .stringn "<0A><80>Best Time <19><03><1B><03>"
+  .stringn "<0A><80>Melhor Tempo <19><03><1B><03>"
   db 0x00, 0xFF
 
 block_2_str_055:
   .stringn "ID", 0x00, 0xFE
-  .stringn "Password"
+  .stringn "Senha"
   db 0x00, 0xFF
 
 block_2_str_056:
-  .stringn "You can't copy", 0x00, 0xFE
-  .stringn "Time Attack data."
+  .stringn "Você não pode copiar", 0x00, 0xFE
+  .stringn "Dados de Modo Tempo."
   db 0x00, 0xFF
 
 block_2_str_057:
-  .stringn "Linking error. Try again."
+  .stringn "Erro de conexão. Tente novamente."
   db 0x00, 0xFF
 
 block_2_str_058:
-  .stringn "A linking error has", 0x00, 0xFE
-  .stringn "occurred. Please", 0x00, 0xFE
-  .stringn "check the connection", 0x00, 0xFE
-  .stringn "and try again."
+  .stringn "Ocorreu um erro de", 0x00, 0xFE
+  .stringn "conexão. Por favor", 0x00, 0xFE
+  .stringn "confira as ligações", 0x00, 0xFE
+  .stringn "e tente novamente."
   db 0x00, 0xFF
 
 block_2_str_059:
-  .stringn "<05><81>Time Attack<00><81> available.", 0x00, 0xFE
-  .stringn "Select completed save", 0x00, 0xFE
-  .stringn "& Press <up> <left> <right> <down>"
+  .stringn "<05><81>Modo Tempo<00><81> disponível.", 0x00, 0xFE
+  .stringn "Escolha um jogo finalizado", 0x00, 0xFE
+  .stringn "& Aperte <up> <left> <right> <down>"
   db 0x00, 0xFF
 
 block_2_str_060:
-  .stringn "<05><81>Time Attack Records<00>A<FE>has been added to", 0x00, 0xFE
-  .stringn "the <06><81>OPTIONS<00><81> screen."
+  .stringn "<05><81>Recordes do Modo Tempo<00><81>", 0x00, 0xFE
+  .stringn "foi adicionado", 0x00, 0xFE
+  .stringn "à tela de <06><81>OPÇÕES<00><81>."
   db 0x00, 0xFF
 
 block_2_str_061:
-  .stringn "<05><81>Sound Test<00><81> has", 0x00, 0xFE
-  .stringn "been added to the", 0x00, 0xFE
-  .stringn "<06><81>OPTIONS<00><81> screen."
+  .stringn "<05><81>Teste de Áudio<00><81> foi", 0x00, 0xFE
+  .stringn "adicionado à", 0x00, 0xFE
+  .stringn "tela de <06><81>OPÇÕES<00><81>."
   db 0x00, 0xFF
 
 block_2_str_062:
-  .stringn "<05><81>Original Metroid<00><81> has", 0x00, 0xFE
-  .stringn "been added to the", 0x00, 0xFE
-  .stringn "<06><81>OPTIONS<00><81> screen."
+  .stringn "<05><81>Metroid Original<00><81> foi", 0x00, 0xFE
+  .stringn "adicionado à", 0x00, 0xFE
+  .stringn "tela de <06><81>OPÇÕES<00><81>."
   db 0x00, 0xFF
 

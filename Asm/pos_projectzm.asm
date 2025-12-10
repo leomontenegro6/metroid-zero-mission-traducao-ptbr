@@ -29,7 +29,7 @@
     .dw NomesMenus2
 
 ; Inserindo gráficos comprimidos editados no final da rom.
-.org 0x08FD90A0
+.org 0x08FC90A0
 TelaTitulo:
     .incbin "Graficos/Editados/Tela-titulo (projectzm).lz"
     .align

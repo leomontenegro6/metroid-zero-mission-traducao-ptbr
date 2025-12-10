@@ -90,7 +90,8 @@ block_2_str_017:
   db 0x00, 0xFF
 
 block_2_str_018:
-  .stringn "<06><81>Análise inconclusiva.<00>A<FE>Item incompatível com o traje atual."
+  .stringn "<06><81>Análise inconclusiva.<00><81>", 0x00, 0xFE
+  .stringn "Item incompatível com o traje atual."
   db 0x00, 0xFF
 
 block_2_str_019:
@@ -134,7 +135,7 @@ block_2_str_024:
   db 0x00, 0xFF
 
 block_2_str_025:
-  .stringn "E destruir o Cérebro-Mãe,:", 0x00, 0xFE
+  .stringn "E destruir o Cérebro-Mãe,", 0x00, 0xFE
   .stringn "a forma vital mecânica."
   db 0x00, 0xFF
 
@@ -319,7 +320,8 @@ block_2_str_059:
   db 0x00, 0xFF
 
 block_2_str_060:
-  .stringn "<05><81>Recordes do Modo<00>A<FE><05><81>Tempo<00><81> foi adicionado", 0x00, 0xFE
+  .stringn "<05><81>Recordes do Modo Tempo<00><81>", 0x00, 0xFE
+  .stringn "foi adicionado", 0x00, 0xFE
   .stringn "à tela de <06><81>OPÇÕES<00><81>."
   db 0x00, 0xFF
 
