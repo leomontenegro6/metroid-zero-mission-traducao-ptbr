@@ -10,7 +10,7 @@ block_1_str_002:
 
 block_1_str_003:
   .stringn "<00><80><06><81>Míssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <06><81>portas vermelhas<00><81>."
+  .stringn "<00><80>Destrói_certos_blocos._Abre_<06><81>escotilhas_vermelhas<00><81>."
   db 0x00, 0xFF
 
 block_1_str_004:
@@ -20,7 +20,7 @@ block_1_str_004:
 
 block_1_str_005:
   .stringn "<00><80><08><81>Supermíssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <08><81>portas verdes<00><81>."
+  .stringn "<00><80>Destrói certos blocos. Abre <08><81>escotilhas verdes<00><81>."
   db 0x00, 0xFF
 
 block_1_str_006:
@@ -30,7 +30,7 @@ block_1_str_006:
 
 block_1_str_007:
   .stringn "<00><80><05><81>Bomba Energética<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos e abre <05><81>portas amarelas<00><81>."
+  .stringn "<00><80>Destrói certos blocos. Abre <05><81>escotilhas amarelas<00><81>."
   db 0x00, 0xFF
 
 block_1_str_008:
@@ -75,7 +75,7 @@ block_1_str_015:
 
 block_1_str_016:
   .stringn "<00><80><05><81>Morfosfera<00><81>", 0x00, 0xFE
-  .stringn "<00><80><down> duas vezes: acessar passagens estreitas."
+  .stringn "<00><80>Aperte <down><down> para_acessar_passagens_estreitas."
   db 0x00, 0xFF
 
 block_1_str_017:

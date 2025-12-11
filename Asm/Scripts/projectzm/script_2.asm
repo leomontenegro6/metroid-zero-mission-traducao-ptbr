@@ -19,11 +19,11 @@ block_2_str_005:
   db 0x00, 0xFF
 
 block_2_str_006:
-  .stringn "Destrói certos blocos e abre <06><81>portas vermelhas<00><81>."
+  .stringn "Destrói_certos_blocos._Abre_<06><81>escotilhas_vermelhas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_007:
-  .stringn "Destrói certos blocos e abre <08><81>portas verdes<00><81>."
+  .stringn "Destrói certos blocos. Abre <08><81>escotilhas verdes<00><81>."
   db 0x00, 0xFF
 
 block_2_str_008:
@@ -31,7 +31,7 @@ block_2_str_008:
   db 0x00, 0xFF
 
 block_2_str_009:
-  .stringn "Destrói certos blocos e abre <05><81>portas amarelas<00><81>."
+  .stringn "Destrói certos blocos. Abre <05><81>escotilhas amarelas<00><81>."
   db 0x00, 0xFF
 
 block_2_str_010:
@@ -43,7 +43,7 @@ block_2_str_011:
   db 0x00, 0xFF
 
 block_2_str_012:
-  .stringn "<down> duas vezes: acessar passagens estreitas."
+  .stringn "Aperte <down><down> para_acessar_passagens_estreitas."
   db 0x00, 0xFF
 
 block_2_str_013:
