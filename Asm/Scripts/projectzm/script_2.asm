@@ -19,11 +19,11 @@ block_2_str_005:
   db 0x00, 0xFF
 
 block_2_str_006:
-  .stringn "Destrói_certos_blocos._Abre_<06><81>escotilhas_vermelhas<00><81>."
+  .stringn "Destrói_certos_blocos._Abre_<RED>escotilhas_vermelhas<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_007:
-  .stringn "Destrói certos blocos. Abre <08><81>escotilhas verdes<00><81>."
+  .stringn "Destrói certos blocos. Abre <GREEN>escotilhas verdes<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_008:
@@ -31,7 +31,7 @@ block_2_str_008:
   db 0x00, 0xFF
 
 block_2_str_009:
-  .stringn "Destrói certos blocos. Abre <05><81>escotilhas amarelas<00><81>."
+  .stringn "Destrói certos blocos. Abre <YELLOW>escotilhas amarelas<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_010:
@@ -43,7 +43,7 @@ block_2_str_011:
   db 0x00, 0xFF
 
 block_2_str_012:
-  .stringn "Aperte <down><down> para_acessar_passagens_estreitas."
+  .stringn "Aperte <Down><Down> para_acessar_passagens_estreitas."
   db 0x00, 0xFF
 
 block_2_str_013:
@@ -67,12 +67,12 @@ block_2_str_017:
   db 0x00, 0xFF
 
 block_2_str_018:
-  .stringn "<06><81>Análise inconclusiva.<00><81>", 0x00, 0xFE
+  .stringn "<RED>Análise inconclusiva.<WHITE>", 0x00, 0xFE
   .stringn "Item incompatível com o traje atual."
   db 0x00, 0xFF
 
 block_2_str_019:
-  .stringn "<06><81>Paralisa<00><81> inimigos com <05><81>tiros carregados<00><81>."
+  .stringn "<RED>Paralisa<WHITE> inimigos com <YELLOW>tiros carregados<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_020:
@@ -92,7 +92,7 @@ block_2_str_021:
   .stringn "     de Força. Só restava minha pistola de", 0x00, 0xFE
   .stringn "     emergência, que certamente seria inútil.", 0x00, 0xFE
   .stringn "     Infiltrar-me na Nave Mãe deles tão", 0x00, 0xFE
-  .stringn "     <1E><04>bem munida\" era suicídio, mas não", 0x00, 0xFE
+  .stringn "     “bem munida” era suicídio, mas não", 0x00, 0xFE
   .stringn "     havia outra escolha..."
   db 0x00, 0xFF
 
@@ -289,26 +289,26 @@ block_2_str_058:
   db 0x00, 0xFF
 
 block_2_str_059:
-  .stringn "<05><81>Modo Tempo<00><81> disponível.", 0x00, 0xFE
+  .stringn "<YELLOW>Modo Tempo<WHITE> disponível.", 0x00, 0xFE
   .stringn "Escolha um jogo finalizado", 0x00, 0xFE
-  .stringn "& Aperte <up> <left> <right> <down>"
+  .stringn "& Aperte <Up> <Left> <Right> <Down>"
   db 0x00, 0xFF
 
 block_2_str_060:
-  .stringn "<05><81>Recordes do Modo Tempo<00><81>", 0x00, 0xFE
+  .stringn "<YELLOW>Recordes do Modo Tempo<WHITE>", 0x00, 0xFE
   .stringn "foi adicionado", 0x00, 0xFE
-  .stringn "à tela de <06><81>OPÇÕES<00><81>."
+  .stringn "à tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_061:
-  .stringn "<05><81>Teste de Áudio<00><81> foi", 0x00, 0xFE
+  .stringn "<YELLOW>Teste de Áudio<WHITE> foi", 0x00, 0xFE
   .stringn "adicionado à", 0x00, 0xFE
-  .stringn "tela de <06><81>OPÇÕES<00><81>."
+  .stringn "tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_062:
-  .stringn "<05><81>Metroid Original<00><81> foi", 0x00, 0xFE
+  .stringn "<YELLOW>Metroid Original<WHITE> foi", 0x00, 0xFE
   .stringn "adicionado à", 0x00, 0xFE
-  .stringn "tela de <06><81>OPÇÕES<00><81>."
+  .stringn "tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 

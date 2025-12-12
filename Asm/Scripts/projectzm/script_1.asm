@@ -1,105 +1,105 @@
 block_1_str_001:
-  .stringn "<00><80><05><81>Tanque de Energia adquirido.", 0x00, 0xFE
-  .stringn "<00><80><00><81>Capacidade de Energia aumentada."
+  .stringn "<00><80><YELLOW>Tanque de Energia adquirido.", 0x00, 0xFE
+  .stringn "<00><80><WHITE>Capacidade de Energia aumentada."
   db 0x00, 0xFF
 
 block_1_str_002:
-  .stringn "<00><80><06><81>Tanque de Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<00><80><00><81>Capacidade de Mísseis aumentada."
+  .stringn "<00><80><RED>Tanque de Mísseis adquirido.", 0x00, 0xFE
+  .stringn "<00><80><WHITE>Capacidade de Mísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_003:
-  .stringn "<00><80><06><81>Míssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói_certos_blocos._Abre_<06><81>escotilhas_vermelhas<00><81>."
+  .stringn "<00><80><RED>Míssil<WHITE>", 0x00, 0xFE
+  .stringn "<00><80>Destrói_certos_blocos._Abre_<RED>escotilhas_vermelhas<WHITE>."
   db 0x00, 0xFF
 
 block_1_str_004:
-  .stringn "<00><80><08><81>Tanque de Supermísseis adquirido.", 0x00, 0xFE
-  .stringn "<00><80><00><81>Capacidade de Supermísseis aumentada."
+  .stringn "<00><80><GREEN>Tanque de Supermísseis adquirido.", 0x00, 0xFE
+  .stringn "<00><80><WHITE>Capacidade de Supermísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_005:
-  .stringn "<00><80><08><81>Supermíssil<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos. Abre <08><81>escotilhas verdes<00><81>."
+  .stringn "<00><80><GREEN>Supermíssil<WHITE>", 0x00, 0xFE
+  .stringn "<00><80>Destrói certos blocos. Abre <GREEN>escotilhas verdes<WHITE>."
   db 0x00, 0xFF
 
 block_1_str_006:
-  .stringn "<12><80><05><81>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
-  .stringn "<06><80><00><81>Capacidade de Bombas Energéticas aumentada."
+  .stringn "<12><80><YELLOW>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
+  .stringn "<06><80><WHITE>Capacidade de Bombas Energéticas aumentada."
   db 0x00, 0xFF
 
 block_1_str_007:
-  .stringn "<00><80><05><81>Bomba Energética<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Destrói certos blocos. Abre <05><81>escotilhas amarelas<00><81>."
+  .stringn "<00><80><YELLOW>Bomba Energética<WHITE>", 0x00, 0xFE
+  .stringn "<00><80>Destrói certos blocos. Abre <YELLOW>escotilhas amarelas<WHITE>."
   db 0x00, 0xFF
 
 block_1_str_008:
-  .stringn "<00><80><06><81>Raio Longo<00><81>", 0x00, 0xFE
+  .stringn "<00><80><RED>Raio Longo<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Tiros atravessam distâncias maiores."
   db 0x00, 0xFF
 
 block_1_str_009:
-  .stringn "<00><80><05><81>Raio Carregável<00><81>", 0x00, 0xFE
+  .stringn "<00><80><YELLOW>Raio Carregável<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Segure <B> para carregar. Solte para atirar."
   db 0x00, 0xFF
 
 block_1_str_010:
-  .stringn "<00><80><0A><81>Raio de Gelo<00><81>", 0x00, 0xFE
+  .stringn "<00><80><CYAN>Raio de Gelo<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Congele inimigos e use-os como plataformas."
   db 0x00, 0xFF
 
 block_1_str_011:
-  .stringn "<00><80><07><81>Raio Ondular<00><81>", 0x00, 0xFE
+  .stringn "<00><80><PURPLE>Raio Ondular<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Tiros amplos que atravessam paredes."
   db 0x00, 0xFF
 
 block_1_str_012:
-  .stringn "<00><80><08><81>Raio de Plasma<00><81>", 0x00, 0xFE
+  .stringn "<00><80><GREEN>Raio de Plasma<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Tiros atravessam múltiplos inimigos."
   db 0x00, 0xFF
 
 block_1_str_013:
-  .stringn "<00><80><07><81>Bomba<00><81>", 0x00, 0xFE
+  .stringn "<00><80><PURPLE>Bomba<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Aperte <B> na Morfosfera para plantar."
   db 0x00, 0xFF
 
 block_1_str_014:
-  .stringn "<00><80><05><81>Traje Varia<00><81>", 0x00, 0xFE
+  .stringn "<00><80><YELLOW>Traje Varia<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Protege o corpo contra ácido e calor."
   db 0x00, 0xFF
 
 block_1_str_015:
-  .stringn "<00><80><07><81>Traje Gravitacional<00><81>", 0x00, 0xFE
+  .stringn "<00><80><PURPLE>Traje Gravitacional<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Permite livre movimento em líquidos."
   db 0x00, 0xFF
 
 block_1_str_016:
-  .stringn "<00><80><05><81>Morfosfera<00><81>", 0x00, 0xFE
-  .stringn "<00><80>Aperte <down><down> para_acessar_passagens_estreitas."
+  .stringn "<00><80><YELLOW>Morfosfera<WHITE>", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Down><Down> para_acessar_passagens_estreitas."
   db 0x00, 0xFF
 
 block_1_str_017:
-  .stringn "<00><80><08><81>Acelerador<00><81>", 0x00, 0xFE
+  .stringn "<00><80><GREEN>Acelerador<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Corra para destruir certos blocos e inimigos."
   db 0x00, 0xFF
 
 block_1_str_018:
-  .stringn "<00><80><05><81>Pulo Alto<00><81>", 0x00, 0xFE
+  .stringn "<00><80><YELLOW>Pulo Alto<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Altura do pulo aumentada. Pula em Morfosfera."
   db 0x00, 0xFF
 
 block_1_str_019:
-  .stringn "<00><80><07><81>Ataque Giratório<00><81>", 0x00, 0xFE
+  .stringn "<00><80><PURPLE>Ataque Giratório<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Destrói inimigos em pulos giratórios."
   db 0x00, 0xFF
 
 block_1_str_020:
-  .stringn "<00><80><07><81>Salto Espacial<00><81>", 0x00, 0xFE
+  .stringn "<00><80><PURPLE>Salto Espacial<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Aperte <A> para pulos giratórios seguidos no ar."
   db 0x00, 0xFF
 
 block_1_str_021:
-  .stringn "<00><80><05><81>Garra de Força<00><81>", 0x00, 0xFE
+  .stringn "<00><80><YELLOW>Garra de Força<WHITE>", 0x00, 0xFE
   .stringn "<00><80>Agarre e pendure-se em bordas e extremidades."
   db 0x00, 0xFF
 
@@ -129,33 +129,33 @@ block_1_str_026:
   db 0x00, 0xFF
 
 block_1_str_027:
-  .stringn "<00><80>Dados do mapa<00><81> de <09><81>Brinstar<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_028:
-  .stringn "<00><80>Dados do mapa<00><81> de <08><81>Kraid<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Kraid<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_029:
-  .stringn "<00><80>Dados do mapa<00><81> de <06><81>Norfair<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_030:
-  .stringn "<00><80>Dados do mapa<00><81> de <07><81>Ridley<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> de <PURPLE>Ridley<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_031:
-  .stringn "<00><80>Dados do mapa<00><81> da <0A><81>Nave Mãe<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> da <CYAN>Nave Mãe<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_032:
-  .stringn "<00><80><05><81>Provação dos Chozo<00><81> concluída.", 0x00, 0xFE
-  .stringn "<00><80>Readquiriu o seu <0581>Traje de Força<0081>."
+  .stringn "<00><80><YELLOW>Provação dos Chozo<WHITE> concluída.", 0x00, 0xFE
+  .stringn "<00><80>Readquiriu o seu <YELLOW>Traje de Força<WHITE>."
   db 0x00, 0xFF
 
 block_1_str_033:
@@ -164,8 +164,8 @@ block_1_str_033:
   db 0x00, 0xFF
 
 block_1_str_034:
-  .stringn "<00><80><05><81>Dados do mapa<00><81> de <05><81>Tourian<00><81> adquiridos.", 0x00, 0xFE
-  .stringn "<00><80>Aperte <C902>start para visualizar."
+  .stringn "<00><80><YELLOW>Dados do mapa<WHITE> de <YELLOW>Tourian<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<00><80>Aperte <Start> para visualizar."
   db 0x00, 0xFF
 
 block_1_str_035:

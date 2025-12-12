@@ -27,13 +27,13 @@ block_2_str_005:
 
 block_2_str_006:
   .stringn "Aperte <R> + <B> para atirar.", 0x00, 0xFE
-  .stringn "Abre <06><81>escotilhas vermelhas<00><81>."
+  .stringn "Abre <RED>escotilhas vermelhas<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_007:
   .stringn "Aperte <Select> para alternar", 0x00, 0xFE
   .stringn "e <R> + <B> para atirar.", 0x00, 0xFE
-  .stringn "Abre <08><81>escotilhas verdes<00><81>."
+  .stringn "Abre <GREEN>escotilhas verdes<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_008:
@@ -44,7 +44,7 @@ block_2_str_008:
 block_2_str_009:
   .stringn "Para plantar, aperte <R> + <B> estando", 0x00, 0xFE
   .stringn "em morfosfera.", 0x00, 0xFE
-  .stringn "Abre <05><81>escotilhas amarelas<00><81>."
+  .stringn "Abre <YELLOW>escotilhas amarelas<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_010:
@@ -59,13 +59,13 @@ block_2_str_011:
   db 0x00, 0xFF
 
 block_2_str_012:
-  .stringn "<down> duas vezes: Virar esfera e", 0x00, 0xFE
+  .stringn "<Down> duas vezes: Virar esfera e", 0x00, 0xFE
   .stringn "obter acesso a passagens estreitas."
   db 0x00, 0xFF
 
 block_2_str_013:
   .stringn "Permite agarrar e pendurar-se em", 0x00, 0xFE
-  .stringn "<05><81>bordas e extremidades<00><81>."
+  .stringn "<YELLOW>bordas e extremidades<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_014:
@@ -90,13 +90,13 @@ block_2_str_017:
   db 0x00, 0xFF
 
 block_2_str_018:
-  .stringn "<06><81>Análise inconclusiva.<00><81>", 0x00, 0xFE
+  .stringn "<RED>Análise inconclusiva.<WHITE>", 0x00, 0xFE
   .stringn "Item incompatível com o traje atual."
   db 0x00, 0xFF
 
 block_2_str_019:
-  .stringn "Uma pistola <05><81>auto-carregável<05><81>.", 0x00, 0xFE
-  .stringn "<06><81>Paralisa<00><81> inimigos com <05><81>tiros carregados<00><81>."
+  .stringn "Uma pistola <YELLOW>auto-carregável<YELLOW>.", 0x00, 0xFE
+  .stringn "<RED>Paralisa<WHITE> inimigos com <YELLOW>tiros carregados<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_020:
@@ -116,7 +116,7 @@ block_2_str_021:
   .stringn "de Força. Só restava minha pistola de", 0x00, 0xFE
   .stringn "emergência, que certamente seria inútil.", 0x00, 0xFE
   .stringn "Infiltrar-me na Nave Mãe deles tão", 0x00, 0xFE
-  .stringn "<1E><04>bem munida\" era suicídio, mas não", 0x00, 0xFE
+  .stringn "“bem munida” era suicídio, mas não", 0x00, 0xFE
   .stringn "havia outra escolha..."
   db 0x00, 0xFF
 
@@ -314,26 +314,26 @@ block_2_str_058:
   db 0x00, 0xFF
 
 block_2_str_059:
-  .stringn "<05><81>Galeria<00><81> foi", 0x00, 0xFE
+  .stringn "<YELLOW>Galeria<WHITE> foi", 0x00, 0xFE
   .stringn "adicionada à", 0x00, 0xFE
-  .stringn "tela de <06><81>OPÇÕES<00><81>."
+  .stringn "tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_060:
-  .stringn "<05><81>Recordes do Modo Tempo<00><81>", 0x00, 0xFE
+  .stringn "<YELLOW>Recordes do Modo Tempo<WHITE>", 0x00, 0xFE
   .stringn "foi adicionado", 0x00, 0xFE
-  .stringn "à tela de <06><81>OPÇÕES<00><81>."
+  .stringn "à tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_061:
-  .stringn "<05><81>Teste de Áudio<00><81> foi", 0x00, 0xFE
+  .stringn "<YELLOW>Teste de Áudio<WHITE> foi", 0x00, 0xFE
   .stringn "adicionado à", 0x00, 0xFE
-  .stringn "tela de <06><81>OPÇÕES<00><81>."
+  .stringn "tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 
 block_2_str_062:
-  .stringn "<05><81>Metroid Original<00><81> foi", 0x00, 0xFE
+  .stringn "<YELLOW>Metroid Original<WHITE> foi", 0x00, 0xFE
   .stringn "adicionado à", 0x00, 0xFE
-  .stringn "tela de <06><81>OPÇÕES<00><81>."
+  .stringn "tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 

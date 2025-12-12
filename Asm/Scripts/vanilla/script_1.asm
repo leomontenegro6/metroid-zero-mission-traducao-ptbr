@@ -1,97 +1,97 @@
 block_1_str_001:
-  .stringn "<23><80><05><81>Tanque de Energia adquirido.", 0x00, 0xFE
-  .stringn "<15><80><00><81>Capacidade de Energia aumentada."
+  .stringn "<23><80><YELLOW>Tanque de Energia adquirido.", 0x00, 0xFE
+  .stringn "<15><80><WHITE>Capacidade de Energia aumentada."
   db 0x00, 0xFF
 
 block_1_str_002:
-  .stringn "<24><80><05><81>Tanque de Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<16><80><00><81>Capacidade de Mísseis aumentada."
+  .stringn "<24><80><YELLOW>Tanque de Mísseis adquirido.", 0x00, 0xFE
+  .stringn "<16><80><WHITE>Capacidade de Mísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_003:
-  .stringn "<62><80><05><81>Míssil", 0x00, 0xFE
+  .stringn "<62><80><YELLOW>Míssil", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_004:
-  .stringn "<15><80><05><81>Tanque de Supermísseis adquirido.", 0x00, 0xFE
-  .stringn "<07><80><00><81>Capacidade de Supermísseis aumentada."
+  .stringn "<15><80><YELLOW>Tanque de Supermísseis adquirido.", 0x00, 0xFE
+  .stringn "<07><80><WHITE>Capacidade de Supermísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_005:
-  .stringn "<53><80><05><81>Supermíssil", 0x00, 0xFE
+  .stringn "<53><80><YELLOW>Supermíssil", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_006:
   .loadtable "./Tabelas/mzm_fonte_fina.tbl"
-  .stringn "<12><80><05><81>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
-  .stringn "<06><80><00><81>Capacidade de Bombas Energéticas aumentada."
+  .stringn "<12><80><YELLOW>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
+  .stringn "<06><80><WHITE>Capacidade de Bombas Energéticas aumentada."
   db 0x00, 0xFF
   .loadtable "./Tabelas/mzm.tbl"
 
 block_1_str_007:
-  .stringn "<40><80><05><81>Bomba Energética", 0x00, 0xFE
+  .stringn "<40><80><YELLOW>Bomba Energética", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_008:
-  .stringn "<52><80><05><81>Raio Longo", 0x00, 0xFE
+  .stringn "<52><80><YELLOW>Raio Longo", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_009:
-  .stringn "<46><80><05><81>Raio Carregável", 0x00, 0xFE
+  .stringn "<46><80><YELLOW>Raio Carregável", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_010:
-  .stringn "<4E><80><05><81>Raio de Gelo", 0x00, 0xFE
+  .stringn "<4E><80><YELLOW>Raio de Gelo", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_011:
-  .stringn "<4E><80><05><81>Raio Ondular", 0x00, 0xFE
+  .stringn "<4E><80><YELLOW>Raio Ondular", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_012:
-  .stringn "<3E><80><05><81>Item Desconhecido", 0x00, 0xFE
+  .stringn "<3E><80><YELLOW>Item Desconhecido", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_013:
-  .stringn "<60><80><05><81>Bomba", 0x00, 0xFE
+  .stringn "<60><80><YELLOW>Bomba", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_014:
-  .stringn "<50><80><05><81>Traje Varia", 0x00, 0xFE
+  .stringn "<50><80><YELLOW>Traje Varia", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_015:
-  .stringn "<51><80><05><81>Morfosfera", 0x00, 0xFE
+  .stringn "<51><80><YELLOW>Morfosfera", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_016:
-  .stringn "<53><80><05><81>Acelerador", 0x00, 0xFE
+  .stringn "<53><80><YELLOW>Acelerador", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_017:
-  .stringn "<57><80><05><81>Pulo Alto", 0x00, 0xFE
+  .stringn "<57><80><YELLOW>Pulo Alto", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_018:
-  .stringn "<44><80><05><81>Ataque Giratório", 0x00, 0xFE
+  .stringn "<44><80><YELLOW>Ataque Giratório", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_019:
-  .stringn "<45><80><05><81>Garra de Força", 0x00, 0xFE
+  .stringn "<45><80><YELLOW>Garra de Força", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -121,32 +121,32 @@ block_1_str_024:
   db 0x00, 0xFF
 
 block_1_str_025:
-  .stringn "<09><80><05><81>Dados do mapa<00><81> de <09><81>Brinstar<00><81> adquiridos.", 0x00, 0xFE
+  .stringn "<09><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_026:
-  .stringn "<11><80><05><81>Dados do mapa<00><81> de <08><81>Kraid<00><81> adquiridos.", 0x00, 0xFE
+  .stringn "<11><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Kraid<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_027:
-  .stringn "<0C><80><05><81>Dados do mapa<00><81> de <06><81>Norfair<00><81> adquiridos.", 0x00, 0xFE
+  .stringn "<0C><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_028:
-  .stringn "<0F><80><05><81>Dados do mapa<00><81> de <07><81>Ridley<00><81> adquiridos.", 0x00, 0xFE
+  .stringn "<0F><80><YELLOW>Dados do mapa<WHITE> de <PURPLE>Ridley<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_029:
-  .stringn "<04><80><05><81>Dados do mapa<00><81> da <0A><81>Nave Mãe<00><81> adquiridos.", 0x00, 0xFE
+  .stringn "<04><80><YELLOW>Dados do mapa<WHITE> da <CYAN>Nave Mãe<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_030:
-  .stringn "<08><80>Obteve seu <05><81>traje totalmente equipado<00><81>.", 0x00, 0xFE
+  .stringn "<08><80>Obteve seu <YELLOW>traje totalmente equipado<WHITE>.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
