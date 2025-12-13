@@ -97,7 +97,7 @@ block_2_str_021:
   db 0x00, 0xFF
 
 block_2_str_022:
-  .stringn "     Serei capaz de sobreviver até a hora da fuga?"
+  .stringn " Serei capaz de sobreviver até a hora da fuga?"
   db 0x00, 0xFF
 
 block_2_str_023:
