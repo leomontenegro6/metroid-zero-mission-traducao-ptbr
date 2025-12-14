@@ -59,8 +59,8 @@ block_2_str_011:
   db 0x00, 0xFF
 
 block_2_str_012:
-  .stringn "<Down> duas vezes: Virar esfera e", 0x00, 0xFE
-  .stringn "obter acesso a passagens estreitas."
+  .stringn "Aperte <Down><Down> para virar esfera", 0x00, 0xFE
+  .stringn "e obter acesso a passagens estreitas."
   db 0x00, 0xFF
 
 block_2_str_013:
@@ -70,7 +70,7 @@ block_2_str_013:
 
 block_2_str_014:
   .stringn "Corra até a aceleração começar a", 0x00, 0xFE
-  .stringn "destruir certos blocos e matar inimigos."
+  .stringn "destruir certos blocos e inimigos."
   db 0x00, 0xFF
 
 block_2_str_015:

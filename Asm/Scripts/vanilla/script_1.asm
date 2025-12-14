@@ -1,15 +1,15 @@
 block_1_str_001:
-  .stringn "<23><80><YELLOW>Tanque de Energia adquirido.", 0x00, 0xFE
-  .stringn "<15><80><WHITE>Capacidade de Energia aumentada."
+  .stringn "<22><80><YELLOW>Tanque de Energia adquirido.", 0x00, 0xFE
+  .stringn "<14><80><WHITE>Capacidade de Energia aumentada."
   db 0x00, 0xFF
 
 block_1_str_002:
-  .stringn "<24><80><YELLOW>Tanque de Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<16><80><WHITE>Capacidade de Mísseis aumentada."
+  .stringn "<23><80><YELLOW>Tanque de Mísseis adquirido.", 0x00, 0xFE
+  .stringn "<15><80><WHITE>Capacidade de Mísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_003:
-  .stringn "<62><80><YELLOW>Míssil", 0x00, 0xFE
+  .stringn "<61><80><YELLOW>Míssil", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -25,13 +25,13 @@ block_1_str_005:
 
 block_1_str_006:
   .loadtable "./Tabelas/mzm_fonte_fina.tbl"
-  .stringn "<12><80><YELLOW>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
-  .stringn "<06><80><WHITE>Capacidade de Bombas Energéticas aumentada."
+  .stringn "<13><80><YELLOW>Tanque de Bombas Energéticas adquirido.", 0x00, 0xFE
+  .stringn "<07><80><WHITE>Capacidade de Bombas Energéticas aumentada."
   db 0x00, 0xFF
   .loadtable "./Tabelas/mzm.tbl"
 
 block_1_str_007:
-  .stringn "<40><80><YELLOW>Bomba Energética", 0x00, 0xFE
+  .stringn "<41><80><YELLOW>Bomba Energética", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -41,12 +41,12 @@ block_1_str_008:
   db 0x00, 0xFF
 
 block_1_str_009:
-  .stringn "<46><80><YELLOW>Raio Carregável", 0x00, 0xFE
+  .stringn "<45><80><YELLOW>Raio Carregável", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_010:
-  .stringn "<4E><80><YELLOW>Raio de Gelo", 0x00, 0xFE
+  .stringn "<4D><80><YELLOW>Raio de Gelo", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -61,7 +61,7 @@ block_1_str_012:
   db 0x00, 0xFF
 
 block_1_str_013:
-  .stringn "<60><80><YELLOW>Bomba", 0x00, 0xFE
+  .stringn "<5F><80><YELLOW>Bomba", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -71,7 +71,7 @@ block_1_str_014:
   db 0x00, 0xFF
 
 block_1_str_015:
-  .stringn "<51><80><YELLOW>Morfosfera", 0x00, 0xFE
+  .stringn "<52><80><YELLOW>Morfosfera", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -81,7 +81,7 @@ block_1_str_016:
   db 0x00, 0xFF
 
 block_1_str_017:
-  .stringn "<57><80><YELLOW>Pulo Alto", 0x00, 0xFE
+  .stringn "<56><80><YELLOW>Pulo Alto", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -101,72 +101,72 @@ block_1_str_020:
   db 0x00, 0xFF
 
 block_1_str_021:
-  .stringn "<38><80>Salvamento Concluído", 0x00, 0xFE
+  .stringn "<37><80>Salvamento Concluído", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_022:
-  .stringn "<44><80>Re-estoque do sistema", 0x00, 0xFE
-  .stringn "<3D><80>de armas completo."
+  .stringn "<31><80>Re-estoque do sistema", 0x00, 0xFE
+  .stringn "<3C><80>de armas completo."
   db 0x00, 0xFF
 
 block_1_str_023:
-  .stringn "<32><80>Recarga do Tanque de", 0x00, 0xFE
-  .stringn "<40><80>Energia completa."
+  .stringn "<33><80>Recarga do Tanque de", 0x00, 0xFE
+  .stringn "<41><80>Energia completa."
   db 0x00, 0xFF
 
 block_1_str_024:
-  .stringn "<45><80>Armas e energia", 0x00, 0xFE
-  .stringn "<30><80>totalmente restauradas."
+  .stringn "<44><80>Armas e energia", 0x00, 0xFE
+  .stringn "<2F><80>totalmente restauradas."
   db 0x00, 0xFF
 
 block_1_str_025:
-  .stringn "<09><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_026:
-  .stringn "<11><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Kraid<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<10><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Kraid<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_027:
-  .stringn "<0C><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<0B><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_028:
-  .stringn "<0F><80><YELLOW>Dados do mapa<WHITE> de <PURPLE>Ridley<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<0E><80><YELLOW>Dados do mapa<WHITE> de <PURPLE>Ridley<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_029:
-  .stringn "<04><80><YELLOW>Dados do mapa<WHITE> da <CYAN>Nave Mãe<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<03><80><YELLOW>Dados do mapa<WHITE> da <CYAN>Nave Mãe<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_030:
-  .stringn "<08><80>Obteve seu <YELLOW>traje totalmente equipado<WHITE>.", 0x00, 0xFE
+  .stringn "<15><80>Readquiriu o seu <YELLOW>Traje de Força<WHITE>.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_031:
-  .stringn "<09><80>Mecanismo de autodestruição ativado!", 0x00, 0xFE
-  .stringn "<31><80>Evacuar imediatamente!"
+  .stringn "<0A><80>Mecanismo de autodestruição ativado!", 0x00, 0xFE
+  .stringn "<32><80>Evacuar imediatamente!"
   db 0x00, 0xFF
 
 block_1_str_032:
-  .stringn "<2C><80>Localização inimiga anormal.", 0x00, 0xFE
-  .stringn "<1E><80>Confira a mensagem de posição de objeto."
+  .stringn "<2A><80>Localização_inimiga_anormal.", 0x00, 0xFE
+  .stringn "<06><80>Confira_a_mensagem_de_posição_de_objeto."
   db 0x00, 0xFF
 
 block_1_str_033:
-  .stringn "<34><80>Ativar Descanso Fácil?", 0x00, 0xFE
+  .stringn "<31><80>Ativar Descanso Fácil?", 0x00, 0xFE
   .stringn "<21><80>Para sair do Descanso Fácil,"
   db 0x00, 0xFF
 
 block_1_str_034:
-  .stringn "<29><80>aperte <Select>, <L>, e <R>", 0x00, 0xFE
+  .stringn "<2B><80>aperte <Select>, <L>, e <R>", 0x00, 0xFE
   .stringn "<44><80>simultaneamente."
   db 0x00, 0xFF
 
@@ -176,15 +176,15 @@ block_1_str_035:
   db 0x00, 0xFF
 
 block_1_str_036:
-  .stringn "<53><80>BRINSTAR"
+  .stringn "<54><80>BRINSTAR"
   db 0x00, 0xFF
 
 block_1_str_037:
-  .stringn "<5D><80>KRAID"
+  .stringn "<5E><80>KRAID"
   db 0x00, 0xFF
 
 block_1_str_038:
-  .stringn "<56><80>NORFAIR"
+  .stringn "<57><80>NORFAIR"
   db 0x00, 0xFF
 
 block_1_str_039:
@@ -192,15 +192,15 @@ block_1_str_039:
   db 0x00, 0xFF
 
 block_1_str_040:
-  .stringn "<56><80>TOURIAN"
+  .stringn "<57><80>TOURIAN"
   db 0x00, 0xFF
 
 block_1_str_041:
-  .stringn "<53><80>CRATERIA"
+  .stringn "<54><80>CRATERIA"
   db 0x00, 0xFF
 
 block_1_str_042:
-  .stringn "<52><80>CHOZODIA"
+  .stringn "<53><80>CHOZODIA"
   db 0x00, 0xFF
 
 block_1_str_043:
@@ -208,7 +208,7 @@ block_1_str_043:
   db 0x00, 0xFF
 
 block_1_str_044:
-  .stringn "<45><80>PLANETA ZEBES"
+  .stringn "<42><80>PLANETA ZEBES"
   db 0x00, 0xFF
 
 block_1_str_045:
@@ -216,11 +216,11 @@ block_1_str_045:
   db 0x00, 0xFF
 
 block_1_str_046:
-  .stringn "<40><80>SALA DE PESQUISA"
+  .stringn "<38><80>SALA DE PESQUISA"
   db 0x00, 0xFF
 
 block_1_str_047:
-  .stringn "<46><80>SALA DO MAPA"
+  .stringn "<45><80>SALA DO MAPA"
   db 0x00, 0xFF
 
 block_1_str_048:
@@ -228,7 +228,7 @@ block_1_str_048:
   db 0x00, 0xFF
 
 block_1_str_049:
-  .stringn "<53><80>NAVE ESTELAR"
+  .stringn "<45><80>NAVE ESTELAR"
   db 0x00, 0xFF
 
 block_1_str_050:

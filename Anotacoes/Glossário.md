@@ -1,0 +1,47 @@
+# Glossário
+
+- Raios do canhão e habilidades de agarro
+    - Long Beam: Raio Longo
+    - Charge Beam: Raio Carregável
+    - Ice Beam: Raio de Gelo
+    - Wave Beam: Raio Ondular
+    - Plasma Beam: Raio de Plasma
+    - Power Grip: Garra de Força
+    - Grapple Beam: Raio de Arpéu
+    - Grapple Lasso: Laço de Arpéu
+- Tipos de mísseis
+    - Missile Launcher: Lança-mísseis
+    - Missile: Míssil
+    - Super Missile: Supermíssil (tudo junto)
+    - Diffusion Missile: Míssil de Dispersão
+- Tipos de bombas
+    - Bomb: Bomba
+    - Power Bomb: Bomba Energética
+- Tipos de traje
+    - Varia Suit: Traje Varia
+    - Gravity Suit: Traje Gravitacional
+    - Vi-O-La Suit: Traje Vi-O-La
+    - Legacy Suit: Traje Legado
+- Habilidades de esfera
+    - Morph Ball: Morfosfera
+    - Spider Ball: Aracnosfera
+    - Spring Ball: Saltosfera
+    - Speed Ball: Turbosfera
+- Habilidades de perna e salto
+    - Speed Booster: Acelerador
+    - High Jump: Pulo Alto
+    - Screw Attack: Ataque Giratório
+    - Space Jump: Salto Espacial
+- Morfologia
+    - Metroid: Metroide (apenas se tiver se referindo à espécie. se for o nome do jogo, pode manter intacto)
+    - Alpha Metroid: Metroide Alfa
+    - Zeta Metroid: Metroide Zeta
+    - Gamma Metroid: Metroide Gama
+    - Omega Metroid: Metroide Ômega
+    - Crocomire: Crocomiro
+    - Etecoons: Etequinos
+    - Dachoras: Dácoras
+- Diversos
+    - Power Suit: Traje de Força
+    - Missile Expansion: Expansão missilística
+    - Aeion: Eion
