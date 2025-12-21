@@ -39,3 +39,4 @@ Créditos: 0x54C209
 | 0x080E40 | 0x45FDB4    | Letras prólogo             |
 | 0x082E24 | 0x45FDB4    | Letras prólogo             |
 | 0x077604 | 0x          | Tela-Título                |
+| 0x44F0B4 | 0x44E27C    | Tilemap tela-título        |

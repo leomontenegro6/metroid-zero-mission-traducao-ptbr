@@ -41,7 +41,7 @@ block_1_str_008:
   db 0x00, 0xFF
 
 block_1_str_009:
-  .stringn "<45><80><YELLOW>Raio Carregável", 0x00, 0xFE
+  .stringn "<47><80><YELLOW>Raio Carregado", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 

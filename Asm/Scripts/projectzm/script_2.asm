@@ -76,24 +76,25 @@ block_2_str_019:
   db 0x00, 0xFF
 
 block_2_str_020:
-  .stringn "     Planeta Zebes... Em tempos de paz,", 0x00, 0xFE
-  .stringn "     muito antes da desgraça assolar suas", 0x00, 0xFE
-  .stringn "     cavernas, já o considerei um lar.", 0x00, 0xFE
-  .stringn "     Agora, por fim, narrarei a história", 0x00, 0xFE
-  .stringn "     da minha primeira batalha aqui...", 0x00, 0xFE
-  .stringn "     Minha assim chamada Missão Zero.", 0x00, 0xFE
+  .stringn "     Planeta Zebes... Costumava chamar este", 0x00, 0xFE
+  .stringn "     planeta de lar, na minha infância, muito", 0x00, 0xFE
+  .stringn "     antes de se tornar um lugar assustador.", 0x00, 0xFE
+  .stringn "     Foi aqui que travei minha primeira batalha.", 0x00, 0xFE
+  .stringn "     Vou contar os detalhes dessa história,", 0x00, 0xFE
+  .stringn "     que ficou conhecida por todos como", 0x00, 0xFE
+  .stringn "     ”Missão Zero”...", 0x00, 0xFE
   .stringn "                            -Samus Aran-"
   db 0x00, 0xFF
 
 block_2_str_021:
-  .stringn "     Minha fuga não poderia ter sido pior.", 0x00, 0xFE
-  .stringn "     Fui atacada por Piratas Espaciais e", 0x00, 0xFE
-  .stringn "     fiquei quase indefesa, sem meu Traje", 0x00, 0xFE
-  .stringn "     de Força. Só restava minha pistola de", 0x00, 0xFE
-  .stringn "     emergência, que certamente seria inútil.", 0x00, 0xFE
-  .stringn "     Infiltrar-me na Nave Mãe deles tão", 0x00, 0xFE
-  .stringn "     “bem munida” era suicídio, mas não", 0x00, 0xFE
-  .stringn "     havia outra escolha..."
+  .stringn "     De_fato_foi_uma_hora_ruim_para_visitar_Zebes.", 0x00, 0xFE
+  .stringn "     Perseguida por Piratas Espaciais, consegui", 0x00, 0xFE
+  .stringn "     escapar, sem meu Traje de Força.", 0x00, 0xFE
+  .stringn "     Minha arma? Se é que se pode chamar isso", 0x00, 0xFE
+  .stringn "     de arma... uma pistolinha, praticamente", 0x00, 0xFE
+  .stringn "     inútil. É com esse ”belo arsenal” que", 0x00, 0xFE
+  .stringn "     decidi invadir a nave dos Piratas Espaciais,", 0x00, 0xFE
+  .stringn "     procurando um meio de escapar..."
   db 0x00, 0xFF
 
 block_2_str_022:

@@ -2,7 +2,7 @@
 
 - Raios do canhão e habilidades de agarro
     - Long Beam: Raio Longo
-    - Charge Beam: Raio Carregável
+    - Charge Beam: Raio Carregado
     - Ice Beam: Raio de Gelo
     - Wave Beam: Raio Ondular
     - Plasma Beam: Raio de Plasma
@@ -33,11 +33,10 @@
     - Screw Attack: Ataque Giratório
     - Space Jump: Salto Espacial
 - Morfologia
-    - Metroid: Metroide (apenas se tiver se referindo à espécie. se for o nome do jogo, pode manter intacto)
-    - Alpha Metroid: Metroide Alfa
-    - Zeta Metroid: Metroide Zeta
-    - Gamma Metroid: Metroide Gama
-    - Omega Metroid: Metroide Ômega
+    - Alpha Metroid: Metroid Alfa
+    - Zeta Metroid: Metroid Zeta
+    - Gamma Metroid: Metroid Gama
+    - Omega Metroid: Metroid Ômega
     - Crocomire: Crocomiro
     - Etecoons: Etequinos
     - Dachoras: Dácoras

@@ -72,6 +72,7 @@ if !projectzm! equ 1 (
 ) else (
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_vanilla.asm
 )
+.\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_intro_oams.asm
 
 if !randomizer! equ 1 (
     echo ==Aplicando fixes pos-randomizer.==

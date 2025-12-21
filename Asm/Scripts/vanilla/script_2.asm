@@ -100,24 +100,25 @@ block_2_str_019:
   db 0x00, 0xFF
 
 block_2_str_020:
-  .stringn "Planeta Zebes... Em tempos de paz,", 0x00, 0xFE
-  .stringn "muito antes da desgraça assolar suas", 0x00, 0xFE
-  .stringn "cavernas, já o considerei um lar.", 0x00, 0xFE
-  .stringn "Agora, por fim, narrarei a história", 0x00, 0xFE
-  .stringn "da minha primeira batalha aqui...", 0x00, 0xFE
-  .stringn "Minha assim chamada Missão Zero.", 0x00, 0xFE
+  .stringn "Planeta_Zebes..._Costumava_chamar_este", 0x00, 0xFE
+  .stringn "planeta_de_lar,_na_minha_infância,_muito", 0x00, 0xFE
+  .stringn "antes_de_se_tornar_um_lugar_assustador.", 0x00, 0xFE
+  .stringn "Foi_aqui_que_travei_minha_primeira_batalha.", 0x00, 0xFE
+  .stringn "Vou_contar_os_detalhes_dessa_história,", 0x00, 0xFE
+  .stringn "que_ficou_conhecida_por_todos_como", 0x00, 0xFE
+  .stringn "“Missão_Zero”...", 0x00, 0xFE
   .stringn "                       -Samus Aran-"
   db 0x00, 0xFF
 
 block_2_str_021:
-  .stringn "Minha fuga não poderia ter sido pior.", 0x00, 0xFE
-  .stringn "Fui atacada por Piratas Espaciais e", 0x00, 0xFE
-  .stringn "fiquei quase indefesa, sem meu Traje", 0x00, 0xFE
-  .stringn "de Força. Só restava minha pistola de", 0x00, 0xFE
-  .stringn "emergência, que certamente seria inútil.", 0x00, 0xFE
-  .stringn "Infiltrar-me na Nave Mãe deles tão", 0x00, 0xFE
-  .stringn "“bem munida” era suicídio, mas não", 0x00, 0xFE
-  .stringn "havia outra escolha..."
+  .stringn "De_fato_foi_uma_hora_ruim_para_visitar_Zebes.", 0x00, 0xFE
+  .stringn "Perseguida_por_Piratas_Espaciais,_consegui", 0x00, 0xFE
+  .stringn "escapar,_sem_meu_Traje_de_Força.", 0x00, 0xFE
+  .stringn "Minha_arma?_Se_é_que_se_pode_chamar_isso", 0x00, 0xFE
+  .stringn "de_arma..._uma_pistolinha,_praticamente", 0x00, 0xFE
+  .stringn "inútil._É_com_esse_“belo_arsenal”_que", 0x00, 0xFE
+  .stringn "decidi_invadir_a_nave_dos_Piratas_Espaciais,", 0x00, 0xFE
+  .stringn "procurando_um_meio_de_escapar..."
   db 0x00, 0xFF
 
 block_2_str_022:

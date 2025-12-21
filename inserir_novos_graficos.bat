@@ -11,7 +11,10 @@ set LISTA="Nomes habilidades 1"^
     "Tela-titulo (projectzm)"^
     "Dados da Samus (projectzm)"^
     "Nomes menus (projectzm)"^
-    "Nomes menus 2 (projectzm)"
+    "Nomes menus 2 (projectzm)"^
+    "Letras prologo"^
+    "Tela-titulo"^
+    "Tela-titulo (TM)"
 
 for %%A in (%LISTA%) do (
     echo Processando %%~A...

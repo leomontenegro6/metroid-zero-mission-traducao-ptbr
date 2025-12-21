@@ -1,4 +1,2 @@
-- Fazer correções de padronização:
-  - Metróide -> Metroide (sem acento)
 - Tornar a tradução compatível com o Super Metroid Revamp
 - Rever possibilidade de mexer no Metroid de NES comprimido, dentro do Zero Mission.

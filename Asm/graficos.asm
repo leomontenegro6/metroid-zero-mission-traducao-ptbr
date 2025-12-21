@@ -12,6 +12,16 @@
 ; Catalogando ponteiros de gráficos comprimidos e outros dados,
 ; para que sejam posteriormente atualizados, ao reinserir
 ; os gráficos na rom.
+.org 0x08080348
+    .dw LetrasPrologo
+.org 0x08080E40
+    .dw LetrasPrologo
+.org 0x08082E24
+    .dw LetrasPrologo
+.org 0x08077604
+    .dw TelaTitulo
+.org 0x0844F0B4
+    .dw TelaTituloTM
 .org 0x08760158
     .dw NomesHabilidades1
 .org 0x08760160
@@ -29,6 +39,18 @@
 
 ; Inserindo gráficos comprimidos editados no final da rom.
 .org 0x08FE90A0
+LetrasPrologo:
+    .incbin "Graficos/Editados/Letras prologo.lz"
+    .align
+
+TelaTitulo:
+    .incbin "Graficos/Editados/Tela-titulo.lz"
+    .align
+
+TelaTituloTM:
+    .incbin "Graficos/Editados/Tela-titulo (TM).lz"
+    .align
+
 NomesHabilidades1:
     .incbin "Graficos/Editados/Nomes habilidades 1.lz"
     .align

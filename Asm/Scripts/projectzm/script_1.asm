@@ -39,7 +39,7 @@ block_1_str_008:
   db 0x00, 0xFF
 
 block_1_str_009:
-  .stringn "<4B><80><YELLOW>Raio Carregável<WHITE>", 0x00, 0xFE
+  .stringn "<4D><80><YELLOW>Raio Carregado<WHITE>", 0x00, 0xFE
   .stringn "<09><80>Segure <B> para carregar. Solte para atirar."
   db 0x00, 0xFF
 
