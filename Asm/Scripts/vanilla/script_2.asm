@@ -101,8 +101,8 @@ block_2_str_019:
 
 block_2_str_020:
   .stringn "Planeta_Zebes..._Costumava_chamar_este", 0x00, 0xFE
-  .stringn "planeta_de_lar,_na_minha_infância,_muito", 0x00, 0xFE
-  .stringn "antes_de_se_tornar_um_lugar_assustador.", 0x00, 0xFE
+  .stringn "lugar_de_lar,_na_minha_infância,_muito_antes", 0x00, 0xFE
+  .stringn "de_se_tornar_esse_covil_de_horrores.", 0x00, 0xFE
   .stringn "Foi_aqui_que_travei_minha_primeira_batalha.", 0x00, 0xFE
   .stringn "Vou_contar_os_detalhes_dessa_história,", 0x00, 0xFE
   .stringn "que_ficou_conhecida_por_todos_como", 0x00, 0xFE

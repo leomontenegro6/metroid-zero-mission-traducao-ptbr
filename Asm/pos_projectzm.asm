@@ -6,6 +6,10 @@
 .gba
 .open "mzm.gba", 0x08000000
 
+; Revertendo tilemap da tela-título
+.org 0x0844F0B4
+    .stringn 0xE0,0xDB,0x66
+
 ; Catalogando ponteiros de gráficos comprimidos e outros dados,
 ; para que sejam posteriormente atualizados, ao reinserir
 ; os gráficos na rom.

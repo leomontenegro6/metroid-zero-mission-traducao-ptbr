@@ -77,8 +77,8 @@ block_2_str_019:
 
 block_2_str_020:
   .stringn "     Planeta Zebes... Costumava chamar este", 0x00, 0xFE
-  .stringn "     planeta de lar, na minha infância, muito", 0x00, 0xFE
-  .stringn "     antes de se tornar um lugar assustador.", 0x00, 0xFE
+  .stringn "     lugar de lar, na minha infância, muito antes", 0x00, 0xFE
+  .stringn "     de se tornar esse covil de horrores.", 0x00, 0xFE
   .stringn "     Foi aqui que travei minha primeira batalha.", 0x00, 0xFE
   .stringn "     Vou contar os detalhes dessa história,", 0x00, 0xFE
   .stringn "     que ficou conhecida por todos como", 0x00, 0xFE
