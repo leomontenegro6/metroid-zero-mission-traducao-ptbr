@@ -102,17 +102,17 @@ block_2_str_022:
   db 0x00, 0xFF
 
 block_2_str_023:
-  .stringn "Ordem de Urgência"
+  .stringn "Ordem de Emergência"
   db 0x00, 0xFF
 
 block_2_str_024:
-  .stringn "Eliminar todos os seres", 0x00, 0xFE
-  .stringn "Metroides do Planeta Zebes..."
+  .stringn "Eliminar a espécie Metroid", 0x00, 0xFE
+  .stringn "Planeta Zebes..."
   db 0x00, 0xFF
 
 block_2_str_025:
-  .stringn "E destruir o Cérebro-Mãe,", 0x00, 0xFE
-  .stringn "a forma vital mecânica."
+  .stringn "E neutralizar o bio-organismo", 0x00, 0xFE
+  .stringn "mecânico, Cérebro-Mãe."
   db 0x00, 0xFF
 
 block_2_str_026:

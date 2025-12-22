@@ -63,12 +63,16 @@ echo ==Expandindo a rom para 16mb.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\expansor_rom.asm
 
 echo ==Aplicando patches de graficos editados.==
-.\Ferramentas\flips.exe --apply .\mzm_moved_graphics_16mb.ips .\mzm.gba .\mzm.gba
+if !supermetroidrevamp! equ 0 (
+    .\Ferramentas\flips.exe --apply .\mzm_moved_graphics_16mb.ips .\mzm.gba .\mzm.gba
+)
 call inserir_novos_graficos.bat
 
 echo ==Inserindo textos traduzidos.==
 if !projectzm! equ 1 (
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_projectzm.asm
+) else if !supermetroidrevamp! equ 1 (
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_supermetroidrevamp.asm
 ) else (
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\textos_vanilla.asm
 )
@@ -82,6 +86,11 @@ if !randomizer! equ 1 (
 if !projectzm! equ 1 (
     echo ==Aplicando fixes pos-projectzm.==
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_projectzm.asm
+)
+
+if !supermetroidrevamp! equ 1 (
+    echo ==Aplicando fixes pos-supermetroidrevamp.==
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_supermetroidrevamp.asm
 )
 
 echo Done.

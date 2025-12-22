@@ -8,13 +8,16 @@ echo ==Atualizando imagens comprimidas.==
 set LISTA="Nomes habilidades 1"^
     "Nomes habilidades 2"^
     "Nomes habilidades 3"^
+    "Dados da Samus"^
+    "Dados da Samus (TM)"^
+    "Nomes menus"^
+    "Letras prologo"^
+    "Tela-titulo"^
+    "Tela-titulo (TM)"^
     "Tela-titulo (projectzm)"^
     "Dados da Samus (projectzm)"^
     "Nomes menus (projectzm)"^
-    "Nomes menus 2 (projectzm)"^
-    "Letras prologo"^
-    "Tela-titulo"^
-    "Tela-titulo (TM)"
+    "Nomes menus 2 (projectzm)"
 
 for %%A in (%LISTA%) do (
     echo Processando %%~A...

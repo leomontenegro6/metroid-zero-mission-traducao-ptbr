@@ -1,6 +1,5 @@
 block_2_str_001:
-  .stringn "Atire à longa distância com esse Raio.", 0x00, 0xFE
-  .stringn "Botões <L> + <B>: Atirar na diagonal."
+  .stringn "Dispare três projéteis simultâneos."
   db 0x00, 0xFF
 
 block_2_str_002:
@@ -27,7 +26,8 @@ block_2_str_005:
 
 block_2_str_006:
   .stringn "Aperte <R> + <B> para atirar.", 0x00, 0xFE
-  .stringn "Abre <RED>escotilhas vermelhas<WHITE>."
+  .stringn "Abre <RED>escotilhas vermelhas<WHITE>.", 0x00, 0xFE
+  .stringn "Revela blocos ocultos."
   db 0x00, 0xFF
 
 block_2_str_007:
@@ -49,7 +49,7 @@ block_2_str_009:
 
 block_2_str_010:
   .stringn "Reduz danos recebidos de inimigos.", 0x00, 0xFE
-  .stringn "Protege o corpo contra ácido e calor."
+  .stringn "Protege o corpo contra calor."
   db 0x00, 0xFF
 
 block_2_str_011:
@@ -64,9 +64,22 @@ block_2_str_012:
   db 0x00, 0xFF
 
 block_2_str_013:
-  .stringn "Permite agarrar e pendurar-se em", 0x00, 0xFE
-  .stringn "<YELLOW>bordas e extremidades<WHITE>."
+  .loadtable "./Tabelas/mzm_fonte_fina.tbl"
+  .stringn "Obrigado a todos que acharam essa sala", 0x00, 0xFE
+  .stringn "e que jogaram esse hack. ", 0x00, 0xFE
+  .stringn "Agradecimentos especiais a <YELLOW>Biospark<WHITE>, <YELLOW>Raygun<WHITE>,", 0x00, 0xFE
+  .stringn "<YELLOW>Cpt. Glitch<WHITE>, <YELLOW>Caauyjdp<WHITE>, <YELLOW>Cosmic<WHITE>,", 0x00, 0xFE
+  .stringn "<YELLOW>ThAt GuY sTrAtToN<WHITE>, <YELLOW>Kiliwily<WHITE>, <YELLOW>Yohann<WHITE>,", 0x00, 0xFE
+  .stringn "<YELLOW>Kazuto<WHITE>, <YELLOW>Meinos Belfort<WHITE>, <YELLOW>Alexman25<WHITE>,", 0x00, 0xFE
+  .stringn "<YELLOW>Varian<WHITE>, <YELLOW>Metroid Violinist<WHITE> e <YELLOW>Ti2<WHITE>, pela", 0x00, 0xFE
+  .stringn "ajuda e seus recursos.", 0x00, 0xFE
+  .stringn "Um salve também a <YELLOW>Let's Play Nintendo ITA<WHITE>", 0x00, 0xFE
+  .stringn "por ajudar no betatest do hack durante", 0x00, 0xFE
+  .stringn "o desenvolvimento.", 0x00, 0xFE
+  .stringn "Foi mal, <YELLOW>Cosmic<WHITE> por te estressar com", 0x00, 0xFE
+  .stringn "o ASM da GBA Edition."
   db 0x00, 0xFF
+  .loadtable "./Tabelas/mzm.tbl"
 
 block_2_str_014:
   .stringn "Corra até a aceleração começar a", 0x00, 0xFE
@@ -100,13 +113,14 @@ block_2_str_019:
   db 0x00, 0xFF
 
 block_2_str_020:
-  .stringn "Planeta_Zebes..._Costumava_chamar_este", 0x00, 0xFE
-  .stringn "lugar_de_lar,_na_minha_infância,_muito_antes", 0x00, 0xFE
-  .stringn "de_se_tornar_esse_covil_de_horrores.", 0x00, 0xFE
-  .stringn "Foi_aqui_que_travei_minha_primeira_batalha.", 0x00, 0xFE
-  .stringn "Vou_contar_os_detalhes_dessa_história,", 0x00, 0xFE
-  .stringn "que_ficou_conhecida_por_todos_como", 0x00, 0xFE
-  .stringn "“Missão_Zero”...", 0x00, 0xFE
+  .stringn "Planeta_Zebes..._Foi_aqui_que_lutei_pela", 0x00, 0xFE
+  .stringn "primeira_vez_com_os_Metroids_e_impedi_os", 0x00, 0xFE
+  .stringn "planos_do_Cérebro-Mãe._Então_erradiquei", 0x00, 0xFE
+  .stringn "os_Metroids_em_seu_planeta_natal,_SR388,", 0x00, 0xFE
+  .stringn "exceto_por_uma_larva,_que_ao_eclodir,_me", 0x00, 0xFE
+  .stringn "seguiu_como_uma_criança_confusa...", 0x00, 0xFE
+  .stringn "Então_eu_o_levei_à_Estação_Ceres,_mas", 0x00, 0xFE
+  .stringn "quando_saí_de_lá,_o_Metroid_foi_roubado...", 0x00, 0xFE
   .stringn "                       -Samus Aran-"
   db 0x00, 0xFF
 
@@ -286,7 +300,7 @@ block_2_str_052:
   db 0x00, 0xFF
 
 block_2_str_053:
-  .stringn "<0C><80>Melhor Tempo"
+  .stringn "<17><80>Melhor Tempo"
   db 0x00, 0xFF
 
 block_2_str_054:

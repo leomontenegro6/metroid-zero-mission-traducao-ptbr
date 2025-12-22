@@ -40,6 +40,15 @@
     - Crocomire: Crocomiro
     - Etecoons: Etequinos
     - Dachoras: Dácoras
+- Localidades
+    - Lower Brinstar: Brinstar Inferior
+    - Wrecked Ship: Nave Danificada
+    - Sector 1 (SRX): Setor 1 (SRX)
+    - Sector 2 (TRO): Setor 2 (TRO)
+    - Sector 3 (PYR): Setor 3 (PIR)
+    - Sector 4 (AQA): Setor 4 (AQA)
+    - Sector 5 (ARC): Setor 5 (ÁRT)
+    - Sector 6 (NOC): Setor 6 (NOT)
 - Diversos
     - Power Suit: Traje de Força
     - Missile Expansion: Expansão missilística

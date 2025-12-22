@@ -36,7 +36,7 @@ block_1_str_007:
   db 0x00, 0xFF
 
 block_1_str_008:
-  .stringn "<52><80><YELLOW>Raio Longo", 0x00, 0xFE
+  .stringn "<53><80><YELLOW>Raio Amplo", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -56,7 +56,7 @@ block_1_str_011:
   db 0x00, 0xFF
 
 block_1_str_012:
-  .stringn "<3E><80><YELLOW>Item Desconhecido", 0x00, 0xFE
+  .stringn "<47><80><YELLOW>Raio de Plasma", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -71,211 +71,225 @@ block_1_str_014:
   db 0x00, 0xFF
 
 block_1_str_015:
-  .stringn "<52><80><YELLOW>Morfosfera", 0x00, 0xFE
+  .stringn "<3D><80><YELLOW>Traje Gravitacional", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_016:
-  .stringn "<53><80><YELLOW>Acelerador", 0x00, 0xFE
+  .stringn "<52><80><YELLOW>Morfosfera", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_017:
-  .stringn "<56><80><YELLOW>Pulo Alto", 0x00, 0xFE
+  .stringn "<53><80><YELLOW>Acelerador", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_018:
-  .stringn "<44><80><YELLOW>Ataque Giratório", 0x00, 0xFE
+  .stringn "<56><80><YELLOW>Pulo Alto", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_019:
-  .stringn "<45><80><YELLOW>Garra de Força", 0x00, 0xFE
+  .stringn "<44><80><YELLOW>Ataque Giratório", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_020:
-  .stringn "<5E><80>Salvar?", 0x00, 0xFE
-  .stringn "<5E><80><40><83>Sim<A0><83>Não"
+  .stringn "<40><80><YELLOW>Salto Espacial", 0x00, 0xFE
+  .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_021:
-  .stringn "<37><80>Salvamento Concluído", 0x00, 0xFE
+  .stringn "<3E><80><YELLOW>Uma carta de TBC", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_022:
+  .stringn "<5E><80>Salvar?", 0x00, 0xFE
+  .stringn "<5E><80><40><83>Sim<A0><83>Não"
+  db 0x00, 0xFF
+
+block_1_str_023:
+  .stringn "<37><80>Salvamento Concluído", 0x00, 0xFE
+  .stringn "<6E><80>"
+  db 0x00, 0xFF
+
+block_1_str_024:
   .stringn "<31><80>Re-estoque do sistema", 0x00, 0xFE
   .stringn "<3C><80>de armas completo."
   db 0x00, 0xFF
 
-block_1_str_023:
+block_1_str_025:
   .stringn "<33><80>Recarga do Tanque de", 0x00, 0xFE
   .stringn "<41><80>Energia completa."
   db 0x00, 0xFF
 
-block_1_str_024:
+block_1_str_026:
   .stringn "<44><80>Armas e energia", 0x00, 0xFE
   .stringn "<2F><80>totalmente restauradas."
   db 0x00, 0xFF
 
-block_1_str_025:
-  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
-  .stringn "<6E><80>"
-  db 0x00, 0xFF
-
-block_1_str_026:
-  .stringn "<10><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Kraid<WHITE> adquiridos.", 0x00, 0xFE
-  .stringn "<6E><80>"
-  db 0x00, 0xFF
-
 block_1_str_027:
-  .stringn "<0B><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de <GREEN>Brinstar<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_028:
-  .stringn "<0E><80><YELLOW>Dados do mapa<WHITE> de <PURPLE>Ridley<WHITE> adquiridos.", 0x00, 0xFE
-  .stringn "<6E><80>"
+.loadtable "./Tabelas/mzm_fonte_fina.tbl"
+  .stringn "<05><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Brinstar Inferior<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<34><80><WHITE>Pera, isso non ecziste!1!!1!"
   db 0x00, 0xFF
+  .loadtable "./Tabelas/mzm.tbl"
 
 block_1_str_029:
-  .stringn "<03><80><YELLOW>Dados do mapa<WHITE> da <CYAN>Nave Mãe<WHITE> adquiridos.", 0x00, 0xFE
+.loadtable "./Tabelas/mzm_fonte_fina.tbl"
+  .stringn "<09><80><YELLOW>Dados do mapa<WHITE> da <PURPLE>Nave Danificada<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
+  .loadtable "./Tabelas/mzm.tbl"
 
 block_1_str_030:
-  .stringn "<15><80>Readquiriu o seu <YELLOW>Traje de Força<WHITE>.", 0x00, 0xFE
+  .stringn "<0B><80><YELLOW>Dados do mapa<WHITE> de <RED>Norfair<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
 block_1_str_031:
+  .stringn "<0B><80><YELLOW>Dados do mapa<WHITE> de <BLUE>Maridia<WHITE> adquiridos.", 0x00, 0xFE
+  .stringn "<6E><80>"
+  db 0x00, 0xFF
+
+block_1_str_032:
+  .stringn "<15><80>Readquiriu o seu <YELLOW>Traje de Força<WHITE>.", 0x00, 0xFE
+  .stringn "<6E><80>"
+  db 0x00, 0xFF
+
+block_1_str_033:
   .stringn "<0A><80>Mecanismo de autodestruição ativado!", 0x00, 0xFE
   .stringn "<32><80>Evacuar imediatamente!"
   db 0x00, 0xFF
 
-block_1_str_032:
-  .stringn "<2A><80>Localização_inimiga_anormal.", 0x00, 0xFE
-  .stringn "<06><80>Confira_a_mensagem_de_posição_de_objeto."
+block_1_str_034:
+  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de Crateria adquiridos.", 0x00, 0xFE
+  .stringn "<6E><80>"
   db 0x00, 0xFF
 
-block_1_str_033:
+block_1_str_035:
   .stringn "<31><80>Ativar Descanso Fácil?", 0x00, 0xFE
   .stringn "<21><80>Para sair do Descanso Fácil,"
   db 0x00, 0xFF
 
-block_1_str_034:
+block_1_str_036:
   .stringn "<2B><80>aperte <Select>, <L>, e <R>", 0x00, 0xFE
   .stringn "<44><80>simultaneamente."
   db 0x00, 0xFF
 
-block_1_str_035:
+block_1_str_037:
   .stringn "<65><80>Sim", 0x00, 0xFE
   .stringn "<70><80>Não"
   db 0x00, 0xFF
 
-block_1_str_036:
+block_1_str_038:
   .stringn "<54><80>BRINSTAR"
   db 0x00, 0xFF
 
-block_1_str_037:
-  .stringn "<5E><80>KRAID"
-  db 0x00, 0xFF
-
-block_1_str_038:
-  .stringn "<57><80>NORFAIR"
-  db 0x00, 0xFF
-
 block_1_str_039:
-  .stringn "<5A><80>RIDLEY"
+  .stringn "<36><80>BRINSTAR INFERIOR"
   db 0x00, 0xFF
 
 block_1_str_040:
-  .stringn "<57><80>TOURIAN"
+  .stringn "<39><80>NORFAIR INFERIOR"
   db 0x00, 0xFF
 
 block_1_str_041:
-  .stringn "<54><80>CRATERIA"
+  .stringn "<57><80>NORFAIR"
   db 0x00, 0xFF
 
 block_1_str_042:
-  .stringn "<53><80>CHOZODIA"
+  .stringn "<57><80>TOURIAN"
   db 0x00, 0xFF
 
 block_1_str_043:
-  .stringn "<09><80>NAVE MÃE DOS PIRATAS ESPACIAIS"
+  .stringn "<54><80>CRATERIA"
   db 0x00, 0xFF
 
 block_1_str_044:
-  .stringn "<42><80>PLANETA ZEBES"
+  .stringn "<57><80>MARIDIA"
   db 0x00, 0xFF
 
 block_1_str_045:
-  .stringn "<30><80>SALA DE SALVAMENTO"
+  .stringn "<3B><80>NAVE DANIFICADA"
   db 0x00, 0xFF
 
 block_1_str_046:
-  .stringn "<38><80>SALA DE PESQUISA"
+  .stringn "<42><80>PLANETA ZEBES"
   db 0x00, 0xFF
 
 block_1_str_047:
-  .stringn "<45><80>SALA DO MAPA"
+  .stringn "<30><80>SALA DE SALVAMENTO"
   db 0x00, 0xFF
 
 block_1_str_048:
-  .stringn "<43><80>RUÍNAS CHOZO"
+  .stringn "<3B><80>SALA DE RECARGA"
   db 0x00, 0xFF
 
 block_1_str_049:
-  .stringn "<45><80>NAVE ESTELAR"
+  .stringn "<45><80>SALA DO MAPA"
   db 0x00, 0xFF
 
 block_1_str_050:
-  .stringn "<45><80>UNUSED OBJ 7"
+  .stringn "<43><80>RUÍNAS CHOZO"
   db 0x00, 0xFF
 
 block_1_str_051:
-  .stringn "<45><80>UNUSED OBJ 8"
+  .stringn "<45><80>NAVE ESTELAR"
   db 0x00, 0xFF
 
 block_1_str_052:
-  .stringn "<45><80>UNUSED OBJ 9"
+  .stringn "<45><80>UNUSED OBJ 7"
   db 0x00, 0xFF
 
 block_1_str_053:
-  .stringn "<42><80>UNUSED OBJ 10"
+  .stringn "<45><80>UNUSED OBJ 8"
   db 0x00, 0xFF
 
 block_1_str_054:
-  .stringn "<44><80>UNUSED OBJ 11"
+  .stringn "<45><80>UNUSED OBJ 9"
   db 0x00, 0xFF
 
 block_1_str_055:
-  .stringn "<42><80>UNUSED OBJ 12"
+  .stringn "<42><80>UNUSED OBJ 10"
   db 0x00, 0xFF
 
 block_1_str_056:
-  .stringn "<42><80>UNUSED OBJ 13"
+  .stringn "<44><80>UNUSED OBJ 11"
   db 0x00, 0xFF
 
 block_1_str_057:
-  .stringn "<42><80>UNUSED OBJ 14"
+  .stringn "<42><80>UNUSED OBJ 12"
   db 0x00, 0xFF
 
 block_1_str_058:
-  .stringn "<42><80>UNUSED OBJ 15"
+  .stringn "<42><80>UNUSED OBJ 13"
   db 0x00, 0xFF
 
 block_1_str_059:
-  .stringn "<42><80>UNUSED OBJ 16"
+  .stringn "<42><80>UNUSED OBJ 14"
   db 0x00, 0xFF
 
 block_1_str_060:
-  .stringn "<42><80>UNUSED OBJ 17"
+  .stringn "<42><80>UNUSED OBJ 15"
   db 0x00, 0xFF
 
 block_1_str_061:
+  .stringn "<42><80>UNUSED OBJ 16"
+  db 0x00, 0xFF
+
+block_1_str_062:
+  .stringn "<42><80>UNUSED OBJ 17"
+  db 0x00, 0xFF
+
+block_1_str_063:
   .stringn "<42><80>UNUSED OBJ 18"
   db 0x00, 0xFF
 
