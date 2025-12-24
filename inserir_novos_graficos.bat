@@ -17,7 +17,14 @@ set LISTA="Nomes habilidades 1"^
     "Tela-titulo (projectzm)"^
     "Dados da Samus (projectzm)"^
     "Nomes menus (projectzm)"^
-    "Nomes menus 2 (projectzm)"
+    "Nomes menus 2 (projectzm)"^
+    "Dormir status mudar areas"^
+    "Nomes localidades (supermetroidrevamp)"^
+    "Nomes habilidades 1 (supermetroidrevamp)"^
+    "Nomes habilidades 2 (supermetroidrevamp)"^
+    "Select Lig Des (supermetroidrevamp)"^
+    "Fim de jogo"^
+    "Continuar Sim Nao"
 
 for %%A in (%LISTA%) do (
     echo Processando %%~A...

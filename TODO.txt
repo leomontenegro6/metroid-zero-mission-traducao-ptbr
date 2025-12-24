@@ -1,2 +1,5 @@
 - Tornar a tradução compatível com o Super Metroid Revamp
+    - Checar se o "Missão Cumprida" vai precisar mexer com OAMs
+    - Checar se o "Tempo" e o "Taxa de Itens Coletados" vai precisar mexer com OAMs
+    - Editar o "See you in the next mission!"
 - Revisar créditos após zerar o jogo, e bolar uma forma de creditar todos os envolvidos lá

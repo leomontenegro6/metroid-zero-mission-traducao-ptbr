@@ -4,6 +4,7 @@
 /*.gba.bak
 /*.ss*
 *.sav
+*.sav.old
 /Graficos/Editados/*.lz
 /Arquivos Patches/*/*.gba
 test.bat
