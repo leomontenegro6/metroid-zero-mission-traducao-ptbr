@@ -76,6 +76,18 @@
     .dw NomesHabilidades3
 .org 0x0806A6C4
     .dw SelectLigDes
+.org 0x0875EC40
+    .dw RaioAmplo
+.org 0x0875EC44
+    .dw RaioAmplo
+.org 0x0875EC48
+    .dw RaioDeGelo
+.org 0x0875EC4C
+    .dw RaioDeGelo
+.org 0x0875EC50
+    .dw RaioOndular
+.org 0x0875EC54
+    .dw RaioOndular
 .org 0x08077D78
     .dw FimDeJogo
 .org 0x08760AF0
@@ -127,6 +139,18 @@ NomesHabilidades3:
 
 SelectLigDes:
     .incbin "Graficos/Editados/Select Lig Des (supermetroidrevamp).lz"
+    .align
+
+RaioAmplo:
+    .incbin "Graficos/Editados/Raio Amplo (supermetroidrevamp).lz"
+    .align
+
+RaioDeGelo:
+    .incbin "Graficos/Editados/Raio de Gelo.lz"
+    .align
+
+RaioOndular:
+    .incbin "Graficos/Editados/Raio Ondular.lz"
     .align
 
 FimDeJogo:

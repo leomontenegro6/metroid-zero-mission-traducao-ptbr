@@ -23,6 +23,9 @@ set LISTA="Nomes habilidades 1"^
     "Nomes habilidades 1 (supermetroidrevamp)"^
     "Nomes habilidades 2 (supermetroidrevamp)"^
     "Select Lig Des (supermetroidrevamp)"^
+    "Raio Amplo (supermetroidrevamp)"^
+    "Raio de Gelo"^
+    "Raio Ondular"^
     "Fim de jogo"^
     "Continuar Sim Nao"
 

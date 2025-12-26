@@ -5,6 +5,12 @@ Créditos: 0x54C209
 |----------|-------------|----------------------------|
 | Offset   | Aponta para | Descrição                  |
 |----------|-------------|----------------------------|
+| 0x75EC40 | 0x          | Raio Longo (Amplo, no SMR) |
+| 0x75EC44 | 0x          | Raio Longo (Amplo, no SMR) |
+| 0x75EC48 | 0x          | Raio de Gelo               |
+| 0x75EC4C | 0x          | Raio de Gelo               |
+| 0x75EC50 | 0x          | Raio Ondular               |
+| 0x75EC54 | 0x          | Raio Ondular               |
 | 0x760430 | 0x767B54    | Apagar dados bateria       |
 | 0x760AF0 | 0x          | Continuar                  |
 | 0x760AF8 | 0x          | Continuar                  |

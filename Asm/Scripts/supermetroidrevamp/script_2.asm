@@ -172,7 +172,7 @@ block_2_str_028:
 block_2_str_029:
   .stringn "Tem certeza que quer", 0x00, 0xFE
   .stringn "sobrescrever?", 0x00, 0xFE
-  .stringn "<00><04><00><04><00><04><00><04><00><04>Sim<00><04><00><04> <00><04>Não"
+  .stringn "_________Sim__ ____Não"
   db 0x00, 0xFF
 
 block_2_str_030:
@@ -183,7 +183,7 @@ block_2_str_030:
 block_2_str_031:
   .stringn "Tem certeza que quer", 0x00, 0xFE
   .stringn "apagar esse arquivo?", 0x00, 0xFE
-  .stringn "<00><04><00><04><00><04><00><04><00><04>Sim<00><04><00><04> <00><04>Não"
+  .stringn "_________Sim__ ____Não"
   db 0x00, 0xFF
 
 block_2_str_032:
@@ -260,7 +260,7 @@ block_2_str_045:
   .stringn "Tem certeza que quer", 0x00, 0xFE
   .stringn "apagar dados salvos?", 0x00, 0xFE
   .stringn "(   não será apagado.)", 0x00, 0xFE
-  .stringn "<00><04><00><04><00><04><00><04>Sim     Não"
+  .stringn "____Sim     Não"
   db 0x00, 0xFF
 
 block_2_str_046:
