@@ -11,7 +11,7 @@ block_2_str_002:
 
 block_2_str_003:
   .stringn "Esse Raio permite congelar inimigos.", 0x00, 0xFE
-  .stringn "Sem perigo, pode-se pisar sobre eles", 0x00, 0xFE
+  .stringn "Com isso, pode-se pisar sobre eles", 0x00, 0xFE
   .stringn "e assim usá-los como plataformas."
   db 0x00, 0xFF
 
@@ -37,13 +37,12 @@ block_2_str_007:
   db 0x00, 0xFF
 
 block_2_str_008:
-  .stringn "Para plantar, aperte <B> estando", 0x00, 0xFE
-  .stringn "em morfosfera."
+  .stringn "Em morfosfera, aperte <B> para plantar."
   db 0x00, 0xFF
 
 block_2_str_009:
-  .stringn "Para plantar, aperte <R> + <B> estando", 0x00, 0xFE
-  .stringn "em morfosfera.", 0x00, 0xFE
+  .stringn "Em morfosfera, aperte <R> + <B>", 0x00, 0xFE
+  .stringn "para plantar bombas energéticas.", 0x00, 0xFE
   .stringn "Abre <YELLOW>escotilhas amarelas<WHITE>."
   db 0x00, 0xFF
 
@@ -54,8 +53,8 @@ block_2_str_010:
 
 block_2_str_011:
   .stringn "Reduz danos recebidos de inimigos.", 0x00, 0xFE
-  .stringn "Permite ao usuário livre movimento", 0x00, 0xFE
-  .stringn "na água. Protege o corpo contra lava."
+  .stringn "Permite ao usuário mover-se livremente", 0x00, 0xFE
+  .stringn "em líquidos. Protege o corpo contra lava."
   db 0x00, 0xFF
 
 block_2_str_012:
@@ -123,7 +122,7 @@ block_2_str_021:
 
 block_2_str_022:
   .stringn "    Serei capaz de sobreviver até", 0x00, 0xFE
-  .stringn "          a hora da fuga?"
+  .stringn "     encontrar um meio de fugir?"
   db 0x00, 0xFF
 
 block_2_str_023:
@@ -246,7 +245,7 @@ block_2_str_045:
   .stringn "Tem certeza que quer", 0x00, 0xFE
   .stringn "apagar dados salvos?", 0x00, 0xFE
   .stringn "(   não será apagado.)", 0x00, 0xFE
-  .stringn "____Sim     Não"
+  .stringn "_______Sim     Não"
   db 0x00, 0xFF
 
 block_2_str_046:
@@ -322,7 +321,7 @@ block_2_str_059:
 
 block_2_str_060:
   .stringn "<YELLOW>Recordes do Modo Tempo<WHITE>", 0x00, 0xFE
-  .stringn "foi adicionado", 0x00, 0xFE
+  .stringn "foram adicionados", 0x00, 0xFE
   .stringn "à tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 

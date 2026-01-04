@@ -19,7 +19,7 @@ block_1_str_004:
   db 0x00, 0xFF
 
 block_1_str_005:
-  .stringn "<56><80><GREEN>Supermíssil<WHITE>", 0x00, 0xFE
+  .stringn "<57><80><GREEN>Supermíssil<WHITE>", 0x00, 0xFE
   .stringn "<05><80>Destrói certos blocos. Abre <GREEN>escotilhas verdes<WHITE>."
   db 0x00, 0xFF
 
@@ -114,7 +114,7 @@ block_1_str_023:
   db 0x00, 0xFF
 
 block_1_str_024:
-  .stringn "<3B><80>Re-estoque do sistema", 0x00, 0xFE
+  .stringn "<30><80>Reabastecimento do sistema", 0x00, 0xFE
   .stringn "<44><80>de armas completo."
   db 0x00, 0xFF
 
@@ -154,7 +154,7 @@ block_1_str_031:
   db 0x00, 0xFF
 
 block_1_str_032:
-  .stringn "<2A><80><YELLOW>Provação dos Chozo<WHITE> concluída.", 0x00, 0xFE
+  .stringn "<29><80><YELLOW>Provação dos Chozo<WHITE> concluída.", 0x00, 0xFE
   .stringn "<24><80>Readquiriu o seu <YELLOW>Traje de Força<WHITE>."
   db 0x00, 0xFF
 
@@ -236,7 +236,7 @@ block_1_str_050:
   db 0x00, 0xFF
 
 block_1_str_051:
-  .stringn "<4C><80>NAVE ESTELAR"
+  .stringn "<4A><80>NAVE ESPACIAL"
   db 0x00, 0xFF
 
 block_1_str_052:

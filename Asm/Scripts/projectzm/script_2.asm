@@ -68,7 +68,7 @@ block_2_str_017:
 
 block_2_str_018:
   .stringn "<RED>Análise inconclusiva.<WHITE>", 0x00, 0xFE
-  .stringn "Item incompatível com o traje atual."
+  .stringn "Item_incompatível_com_o_traje_atual."
   db 0x00, 0xFF
 
 block_2_str_019:
@@ -87,18 +87,19 @@ block_2_str_020:
   db 0x00, 0xFF
 
 block_2_str_021:
-  .stringn "     De_fato_foi_uma_hora_ruim_para_visitar_Zebes.", 0x00, 0xFE
-  .stringn "     Perseguida por Piratas Espaciais, consegui", 0x00, 0xFE
-  .stringn "     escapar, sem meu Traje de Força.", 0x00, 0xFE
-  .stringn "     Minha arma? Se é que se pode chamar isso", 0x00, 0xFE
-  .stringn "     de arma... uma pistolinha, praticamente", 0x00, 0xFE
-  .stringn "     inútil. É com esse ”belo arsenal” que", 0x00, 0xFE
-  .stringn "     decidi invadir a nave dos Piratas Espaciais,", 0x00, 0xFE
-  .stringn "     procurando um meio de escapar..."
+  .stringn "  De_fato_foi_uma_hora_ruim_para_visitar_Zebes.", 0x00, 0xFE
+  .stringn "  Perseguida por Piratas Espaciais, consegui", 0x00, 0xFE
+  .stringn "  escapar, sem meu Traje de Força.", 0x00, 0xFE
+  .stringn "  Minha arma? Se é que se pode chamar isso", 0x00, 0xFE
+  .stringn "  de arma... uma pistolinha, praticamente", 0x00, 0xFE
+  .stringn "  inútil. É com esse ”belo arsenal” que", 0x00, 0xFE
+  .stringn "  decidi invadir a nave dos Piratas Espaciais,", 0x00, 0xFE
+  .stringn "  procurando um meio de escapar..."
   db 0x00, 0xFF
 
 block_2_str_022:
-  .stringn " Serei capaz de sobreviver até a hora da fuga?"
+  .stringn "          Serei capaz de sobreviver até", 0x00, 0xFE
+  .stringn "           encontrar um meio de fugir?"
   db 0x00, 0xFF
 
 block_2_str_023:
@@ -297,7 +298,7 @@ block_2_str_059:
 
 block_2_str_060:
   .stringn "<YELLOW>Recordes do Modo Tempo<WHITE>", 0x00, 0xFE
-  .stringn "foi adicionado", 0x00, 0xFE
+  .stringn "foram adicionados", 0x00, 0xFE
   .stringn "à tela de <RED>OPÇÕES<WHITE>."
   db 0x00, 0xFF
 

@@ -1,6 +1,6 @@
 # Mapeamento de gráficos
 
-Créditos: 0x54C209
+Créditos: 0x54C10C
 
 |----------|-------------|----------------------------|
 | Offset   | Aponta para | Descrição                  |
@@ -55,6 +55,6 @@ Créditos: 0x54C209
 | 0x760B00 | 0x451C84    | Try Again Yes No           |
 | 0x760B04 | 0x451C84    | Try Again Yes No           |
 | 0x760B08 | 0x451C84    | Try Again Yes No           |
-| 0x       | 0x54E2F0    | Fonte créditos             |
-| 0x       | 0x59F5A8    | Clear Time Your Rate       |
+| 0x0855E8 | 0x54E2F0    | Fonte créditos             |
+| 0x0869F4 | 0x59F5A8    | Clear Time Your Rate       |
 | 0x       | 0x5A0F30    | New Record                 |

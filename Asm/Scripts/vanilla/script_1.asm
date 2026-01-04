@@ -5,7 +5,7 @@ block_1_str_001:
 
 block_1_str_002:
   .stringn "<23><80><YELLOW>Tanque de Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<15><80><WHITE>Capacidade de Mísseis aumentada."
+  .stringn "<14><80><WHITE>Capacidade de Mísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_003:
@@ -106,7 +106,7 @@ block_1_str_021:
   db 0x00, 0xFF
 
 block_1_str_022:
-  .stringn "<31><80>Re-estoque do sistema", 0x00, 0xFE
+  .stringn "<26><80>Reabastecimento do sistema", 0x00, 0xFE
   .stringn "<3C><80>de armas completo."
   db 0x00, 0xFF
 
@@ -228,7 +228,7 @@ block_1_str_048:
   db 0x00, 0xFF
 
 block_1_str_049:
-  .stringn "<45><80>NAVE ESTELAR"
+  .stringn "<42><80>NAVE ESPACIAL"
   db 0x00, 0xFF
 
 block_1_str_050:

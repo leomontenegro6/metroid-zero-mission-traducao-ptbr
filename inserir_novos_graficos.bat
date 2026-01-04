@@ -27,7 +27,9 @@ set LISTA="Nomes habilidades 1"^
     "Raio de Gelo"^
     "Raio Ondular"^
     "Fim de jogo"^
-    "Continuar Sim Nao"
+    "Continuar Sim Nao"^
+    "Fonte creditos"^
+    "Ate proxima missao"
 
 for %%A in (%LISTA%) do (
     echo Processando %%~A...

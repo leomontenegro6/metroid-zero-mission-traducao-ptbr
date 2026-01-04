@@ -5,7 +5,7 @@ block_1_str_001:
 
 block_1_str_002:
   .stringn "<23><80><YELLOW>Tanque de Mísseis adquirido.", 0x00, 0xFE
-  .stringn "<15><80><WHITE>Capacidade de Mísseis aumentada."
+  .stringn "<14><80><WHITE>Capacidade de Mísseis aumentada."
   db 0x00, 0xFF
 
 block_1_str_003:
@@ -96,7 +96,7 @@ block_1_str_019:
   db 0x00, 0xFF
 
 block_1_str_020:
-  .stringn "<40><80><YELLOW>Salto Espacial", 0x00, 0xFE
+  .stringn "<49><80><YELLOW>Salto Espacial", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -116,7 +116,7 @@ block_1_str_023:
   db 0x00, 0xFF
 
 block_1_str_024:
-  .stringn "<31><80>Re-estoque do sistema", 0x00, 0xFE
+  .stringn "<26><80>Reabastecimento do sistema", 0x00, 0xFE
   .stringn "<3C><80>de armas completo."
   db 0x00, 0xFF
 
@@ -170,7 +170,7 @@ block_1_str_033:
   db 0x00, 0xFF
 
 block_1_str_034:
-  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de Crateria adquiridos.", 0x00, 0xFE
+  .stringn "<08><80><YELLOW>Dados do mapa<WHITE> de <CYAN>Crateria<WHITE> adquiridos.", 0x00, 0xFE
   .stringn "<6E><80>"
   db 0x00, 0xFF
 
@@ -242,7 +242,7 @@ block_1_str_050:
   db 0x00, 0xFF
 
 block_1_str_051:
-  .stringn "<45><80>NAVE ESTELAR"
+  .stringn "<42><80>NAVE ESPACIAL"
   db 0x00, 0xFF
 
 block_1_str_052:

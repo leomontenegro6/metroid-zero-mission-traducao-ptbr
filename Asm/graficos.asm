@@ -9,6 +9,14 @@
 .org 0x0840D7B0
     .incbin "Graficos/Editados/Fonte dialogos (VWF).gba"
 
+; Editando tilemap dos créditos.
+.org 0x0854C10C
+    .incbin "Graficos/Editados/Creditos (TM).gba"
+
+; Editando OAMs de pós-créditos, com os textos "TEMPO" e "TAXA DE ITENS COLETADOS".
+.org 0x08549D6A
+    .incbin "Graficos/Editados/Ate proxima missao (OAM).gba"
+
 ; Catalogando ponteiros de gráficos comprimidos e outros dados,
 ; para que sejam posteriormente atualizados, ao reinserir
 ; os gráficos na rom.
@@ -36,6 +44,8 @@
     .dw NomesHabilidades2
 .org 0x0876013C
     .dw NomesHabilidades3
+.org 0x080855E8
+    .dw FonteCreditos
 
 ; Inserindo gráficos comprimidos editados no final da rom.
 .org 0x08FE90A0
@@ -61,6 +71,10 @@ NomesHabilidades2:
 
 NomesHabilidades3:
     .incbin "Graficos/Editados/Nomes habilidades 3.lz"
+    .align
+
+FonteCreditos:
+    .incbin "Graficos/Editados/Fonte creditos.lz"
     .align
 
 ; Salvando a rom modificada.

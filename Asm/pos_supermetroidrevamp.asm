@@ -102,6 +102,8 @@
     .dw ContinuarSimNao
 .org 0x08760B08
     .dw ContinuarSimNao
+.org 0x080869F4
+    .dw AteProximaMissao
 
 ; Inserindo gráficos comprimidos editados no final da rom.
 .org 0x08FC90A0
@@ -159,6 +161,10 @@ FimDeJogo:
 
 ContinuarSimNao:
     .incbin "Graficos/Editados/Continuar Sim Nao.lz"
+    .align
+
+AteProximaMissao:
+    .incbin "Graficos/Editados/Ate proxima missao.lz"
     .align
 
 .close
