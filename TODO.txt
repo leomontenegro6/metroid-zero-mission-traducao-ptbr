@@ -1,1 +1,2 @@
-- Revisar créditos após zerar o jogo, e bolar uma forma de creditar todos os envolvidos lá
+- Zerar a ROM uma última vez com um seed de randomizer.
+- Preparar lançamento.

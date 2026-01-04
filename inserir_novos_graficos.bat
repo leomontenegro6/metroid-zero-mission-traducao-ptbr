@@ -3,6 +3,17 @@
 :: Feito para seguramente inserir novas edições gráficas sem correr o risco
 :: de corromper outros gráficos na rom.
 @echo off
+
+REM Inicializa flags
+set projectzm=0
+set supermetroidrevamp=0
+
+REM Percorre todos os argumentos
+for %%A in (%*) do (
+    if /I "%%A"=="-projectzm" set projectzm=1
+    if /I "%%A"=="-supermetroidrevamp" set supermetroidrevamp=1
+)
+
 echo ==Atualizando imagens comprimidas.==
 
 set LISTA="Nomes habilidades 1"^
@@ -39,7 +50,13 @@ for %%A in (%LISTA%) do (
 )
 
 echo ==Reinserindo textos de creditos.==
-php .\Ferramentas\textos-creditos\inserir.php ".\Ferramentas\textos-creditos\Creditos.csv" ".\Graficos\Editados\Creditos (TM).gba"
+if !projectzm! equ 1 (
+    php .\Ferramentas\textos-creditos\inserir.php ".\Ferramentas\textos-creditos\Creditos (projectzm).csv" ".\Graficos\Editados\Creditos (TM).gba"
+) else if !supermetroidrevamp! equ 1 (
+    php .\Ferramentas\textos-creditos\inserir.php ".\Ferramentas\textos-creditos\Creditos (supermetroidrevamp).csv" ".\Graficos\Editados\Creditos (TM).gba"
+) else (
+    php .\Ferramentas\textos-creditos\inserir.php ".\Ferramentas\textos-creditos\Creditos.csv" ".\Graficos\Editados\Creditos (TM).gba"
+)
 
 echo ==Inserindo novos graficos.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\graficos.asm

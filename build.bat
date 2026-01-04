@@ -66,7 +66,7 @@ echo ==Aplicando patches de graficos editados.==
 if !supermetroidrevamp! equ 0 (
     .\Ferramentas\flips.exe --apply .\mzm_moved_graphics_16mb.ips .\mzm.gba .\mzm.gba
 )
-call inserir_novos_graficos.bat
+call inserir_novos_graficos.bat %*
 
 echo ==Inserindo textos traduzidos.==
 if !projectzm! equ 1 (
