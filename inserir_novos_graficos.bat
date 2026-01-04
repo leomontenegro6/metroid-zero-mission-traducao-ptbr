@@ -38,5 +38,8 @@ for %%A in (%LISTA%) do (
     .\Ferramentas\lzss.exe -evn ".\Graficos\Editados\%%~A.lz"
 )
 
+echo ==Reinserindo textos de creditos.==
+php .\Ferramentas\textos-creditos\inserir.php ".\Ferramentas\textos-creditos\Creditos.csv" ".\Graficos\Editados\Creditos (TM).gba"
+
 echo ==Inserindo novos graficos.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\graficos.asm

@@ -5,8 +5,8 @@ metadata,text
 02,
 02,
 05,
-00,"  ´               "
-00,"CREDITOS DA EQUIPE"
+05,
+00,"STAFF CREDITS"
 05,
 02,
 02,
@@ -14,28 +14,32 @@ metadata,text
 02,
 02,
 02,
-00,PRODUTOR
+02,
+00,PRODUCER
 05,
 05,
 02,"Izushi Takehiro"
 05,
 02,
 02,
-00,DIRETOR
+02,
+00,DIRECTOR
 05,
 05,
 02,"Sakamoto Yoshio"
 05,
 02,
 02,
-00,"DESIGN DA SAMUS"
+02,
+00,"SAMUS DESIGN"
 05,
 05,
 02,"Kiyotake Hiroji"
 05,
 02,
 02,
-00,"DESIGN DOS MAPAS"
+02,
+00,"COURSE DESIGN"
 05,
 05,
 02,"Ueda Masani"
@@ -45,8 +49,9 @@ metadata,text
 02,"Nakada Ryuichi"
 05,
 02,
-00,"         ´    "
-00,"DESIGN GRAFICO"
+02,
+02,
+00,"GRAPHIC DESIGN"
 05,
 05,
 02,"Morisawa Takayasu"
@@ -62,9 +67,10 @@ metadata,text
 02,"Momose Hiroshi"
 05,
 02,
-00,"         ~ "
-00,"PROGRAMAÇAO"
-00,"        ¸  "
+02,
+02,
+00,PROGRAMMING
+05,
 05,
 02,"Yamano Katsuya"
 05,
@@ -77,24 +83,27 @@ metadata,text
 02,"Shimizu Hideaki"
 05,
 02,
-00,"        ~         "
-00,"COMPOSIÇAO MUSICAL"
-00,"       ¸          "
+02,
+02,
+00,"MUSIC COMPOSITION"
+05,
 05,
 02,"Yamamoto Kenji"
 05,
 02,"Hamano Minako"
 05,
 02,
-00,"                           ~ "
-00,"EFEITOS SONOROS E PROGRAMAÇAO"
-00,"                          ¸  "
+02,
+02,
+00,"SOUND EFFECT & PROGRAMMING"
+05,
 05,
 02,"Fujii Takaya"
 05,
 02,
 02,
-00,"DESIGN DE MANUAIS E PACOTES"
+02,
+00,"PACKAGE & MANUAL DESIGN"
 05,
 05,
 02,"Inoue Yasuo"
@@ -104,23 +113,26 @@ metadata,text
 02,"Takahashi Yasuko"
 05,
 02,
-00,"         ~ "
-00,"COORDENAÇAO"
-00,"        ¸  "
+02,
+02,
+00,COORDINATION
+05,
 05,
 02,"Harada Takahiro"
 05,
 02,
-00,"       ~ "
-00,"DEPURAÇAO"
-00,"      ¸  "
+02,
+02,
+00,DEBUG
+05,
 05,
 02,"SUPER MARIO CLUB"
 05,
 05,
 02,
 02,
-00,"AGRADECIMENTOS ESPECIAIS"
+02,
+00,"SPECIAL THANKS"
 05,
 05,
 02,"Fukui Kota"
@@ -138,18 +150,21 @@ metadata,text
 02,"Tanaka Hirokazu"
 05,
 02,
-00,"         ~                 "
-00,"LOCALIZAÇAO NORTE AMERICANA"
-00,"        ¸                  "
+02,
+02,
+02,
+00,"NORTH AMERICAN LOCALIZATION"
+05,
 05,
 02,"Nate Bihldorff"
 05,
 02,"Bill Trinen"
 05,
 02,
-00,"   ^                 ~ "
-00,"GERENCIA DE LOCALIZAÇAO"
-00,"                    ¸  "
+02,
+02,
+00,"LOCALIZATION MANAGEMENT"
+05,
 05,
 02,"Jeff Miller"
 05,
@@ -157,7 +172,8 @@ metadata,text
 05,
 02,
 02,
-00,"DEPT. DE TESTE DE PRODUTOS NOA"
+02,
+00,"NOA PRODUCT TESTING DEPARTMENT"
 05,
 05,
 02,"Yoshinobu Mantani"
@@ -184,35 +200,19 @@ metadata,text
 05,
 02,
 02,
-00,"AGRADECIMENTOS ESPECIAIS"
+02,
+00,"SPECIAL THANKS"
 05,
 02,"Mike Fukuda"
 05,
 02,"Tatsumi Kimishima"
 05,
 02,
-00,"      ~         ^            "
-00,"TRADUÇAO PORTUGUES BRASILEIRO"
-00,"     ¸                       "
-02,"Solid One"
-05,
-02,"Ondinha"
-05,
-02,"DarklOrd"
-05,
-02,"Joapeer"
-05,
-02,"Breno"
-05,
-02,"TTK"
-05,
-02,"Ted"
-05,
-02,"lMRlAsura"
-05,
 02,
 02,
-00,"PRODUTOR EXECUTIVO"
+02,
+05,
+00,"EXECUTIVE PRODUCER"
 05,
 05,
 02,"Iwata Satoru"
