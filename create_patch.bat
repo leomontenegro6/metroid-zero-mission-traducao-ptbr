@@ -1,12 +1,20 @@
 @echo off
-del "mzm.ips"
-del "mzm.bps"
-cd ".\Ferramentas\"
+call build.bat
+.\Ferramentas\flips.exe -c "orig.gba" "mzm.gba" "mzm [U] v11.ips"
 
-:: Checar se um parâmetro "-bps" é passado como argumento.
-:: Se sim, editar o comando para criar um patch BPS ao invés de IPS.
-if "%1"=="-bps" (
-    .\flips.exe -c --bps "..\orig.gba" "..\mzm.gba" "..\mzm.bps"
-) else (
-    .\flips.exe -c "..\orig.gba" "..\mzm.gba" "..\mzm.ips"
-)
+call build.bat -projectzm
+.\Ferramentas\flips.exe -c "orig.gba" "mzm.gba" "mzm_projectzm_ptbr.ips"
+
+call build.bat -supermetroidrevamp
+.\Ferramentas\flips.exe -c --bps "orig.gba" "mzm.gba" "mzm_supermetroidrevamp_ptbr.bps"
+
+.\Ferramentas\7z.exe a -tzip "[GBA] Metroid - Zero Mission (U) (1.1).zip"^
+    "mzm [U] v11.ips"^
+    "LEIAME.txt"^
+    "pos_randomizer.ips"^
+    "mzm_projectzm_ptbr.ips"^
+    "mzm_supermetroidrevamp_ptbr.bps"
+
+del "mzm [U] v11.ips"
+del "mzm_projectzm_ptbr.ips"
+del "mzm_supermetroidrevamp_ptbr.bps"

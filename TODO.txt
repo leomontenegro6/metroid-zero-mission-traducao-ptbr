@@ -1,3 +1,0 @@
-- Preparar lançamento.
-    - Gerar patch de pós-randomizer pra incluir no ZIP.
-    - Combinar todas as 28 imagens em 4 GIFs de 7 frames cada, pra usar no RH.NET e RH.ING.
