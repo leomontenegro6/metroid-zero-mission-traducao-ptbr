@@ -26,6 +26,7 @@ set LISTA="Nomes habilidades 1"^
     "Tela-titulo"^
     "Tela-titulo (TM)"^
     "Tela-titulo (projectzm)"^
+    "Tela-titulo (supermetroidrevamp)"^
     "Dados da Samus (projectzm)"^
     "Nomes menus (projectzm)"^
     "Nomes menus 2 (projectzm)"^

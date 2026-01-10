@@ -121,8 +121,8 @@ block_2_str_021:
   db 0x00, 0xFF
 
 block_2_str_022:
-  .stringn "    Serei capaz de sobreviver até", 0x00, 0xFE
-  .stringn "     encontrar um meio de fugir?"
+  .stringn "     Serei capaz de sobreviver até", 0x00, 0xFE
+  .stringn "      encontrar um meio de fugir?"
   db 0x00, 0xFF
 
 block_2_str_023:

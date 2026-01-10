@@ -22,6 +22,8 @@
 ; Catalogando ponteiros de gráficos comprimidos e outros dados,
 ; para que sejam posteriormente atualizados, ao reinserir
 ; os gráficos na rom.
+.org 0x08077604
+    .dw TelaTitulo
 .org 0x0807C7E0
     .dw DadosDaSamus
 .org 0x0807C80C
@@ -107,6 +109,10 @@
 
 ; Inserindo gráficos comprimidos editados no final da rom.
 .org 0x08FC90A0
+TelaTitulo:
+    .incbin "Graficos/Editados/Tela-titulo (supermetroidrevamp).lz"
+    .align
+
 DadosDaSamus:
     .incbin "Graficos/Editados/Dados da Samus.lz"
     .align
