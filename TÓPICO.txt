@@ -1,4 +1,4 @@
-IMG
+[img]https://i.imgur.com/vndsnQO.gif[/img]
 
 —————————————————–
 [b]Informações[/b]
@@ -130,7 +130,7 @@ Changelog
 [b]Agradecimentos[/b]
 —————————————————–
 
-[ul]
+[list]
 [li]Nintendo, por ter criado a série Metroid;[/li]
 [li]Ondinha, por auxiliar com os gráficos & tilemaps comprimidos, pela antiga tool de extração & inserção de scripts do jogo lá de 2008, e pela parte de romhacking mais complicada na tradução;[/li]
 [li]Darkl0rd, pela revisão da versão 1.0 lá de 2008;[/li]
@@ -139,29 +139,32 @@ Changelog
 [li]Ao Breno, Ted, lMRlAsura e TTK por me ajudar com a versão 1.1 e a Iniciativa Metroid.[/li]
 [li]Ao Cosmic e The Brothers Crafters, pelos hacks do ProjectZM e Super Metroid Revamp.[/li]
 [li]À toda comunidade do Metroid Construction, pelo suporte geral.[/li]
-[/ul]
+[/list]
 
 —————————————————–
 [b]Imagens[/b]
 —————————————————–
 
 Original Vanilla:
-[img width=320]https://i.imgur.com/MNBnMlH.gif[/img] [img width=320]https://i.imgur.com/0tFXs8S.gif[/img]
-[img width=320]https://i.imgur.com/im5Z2yf.gif[/img] [img width=320]https://i.imgur.com/7XessCF.gif[/img]
+[img width=300]https://i.imgur.com/kuyfkEz.png[/img] [img width=300]https://i.imgur.com/Xx2zvME.png[/img] [img width=300]https://i.imgur.com/i6TuH5i.png[/img]
+[img width=300]https://i.imgur.com/u6LlZRi.png[/img] [img width=300]https://i.imgur.com/xJtPmpI.png[/img] [img width=300]https://i.imgur.com/ki3c3JQ.png[/img]
+[img width=300]https://i.imgur.com/xXOyZEt.png[/img] [img width=300]https://i.imgur.com/g8oZSLm.png[/img] [img width=300]https://i.imgur.com/1mFTQlr.png[/img]
+[img width=300]https://i.imgur.com/uS0od6P.png[/img] [img width=300]https://i.imgur.com/JQJbSgE.png[/img] [img width=300]https://i.imgur.com/eSPIOgC.png[/img]
 
 ProjectZM:
-[img width=320]https://i.imgur.com/UNti6UR.gif[/img] [img width=320]https://i.imgur.com/j5yE7ML.gif[/img]
+[img width=300]https://i.imgur.com/NTcwq5v.png[/img] [img width=300]https://i.imgur.com/ZhKqEZo.png[/img] [img width=300]https://i.imgur.com/t39Fp1c.png[/img]
+[img width=300]https://i.imgur.com/ejOPlPx.png[/img] [img width=300]https://i.imgur.com/qpnwYhF.png[/img] [img width=300]https://i.imgur.com/N0TzyeC.png[/img]
+[img width=300]https://i.imgur.com/8n67o6Y.png[/img] [img width=300]https://i.imgur.com/9paGLJO.png[/img]
 
 Super Metroid Revamp:
-[img width=320]https://i.imgur.com/UNti6UR.gif[/img] [img width=320]https://i.imgur.com/j5yE7ML.gif[/img]
+[img width=300]https://i.imgur.com/8KiCNSZ.png[/img] [img width=300]https://i.imgur.com/txiED7f.png[/img] [img width=300]https://i.imgur.com/aAbFa9V.png[/img]
+[img width=300]https://i.imgur.com/6OdNXvU.png[/img] [img width=300]https://i.imgur.com/V9GzL5n.png[/img] [img width=300]https://i.imgur.com/6dzmbTt.png[/img]
+[img width=300]https://i.imgur.com/dPveDiw.png[/img] [img width=300]https://i.imgur.com/9kFXFQd.png[/img]
 
 —————————————————–
 [b][i]Patch[/i][/b]
 —————————————————–
 
-Segue abaixo os patches da tradução, para download. Estão em formato IPS, e vocês podem aplicá-los através de programas como [url=https://www.romhacking.net/utilities/1040/"]Floating IPS[/url] ou similares.
-
-Para a versão Sol Vermelho, o patch deve ser aplicado na rom [b]Mega Man Battle Network 4 - Red Sun (USA).gba[/b], com header, de crc [b]2120695C[/b] / md5sum [b]d0dee5c06972cb072391cd968a248d52[/b]. Já para a versão Lua Azul, o patch deve ser aplicado na rom [b]Mega Man Battle Network 4 - Blue Moon (USA).gba[/b], com header, de crc [b]758A46E9[/b] / md5sum [b]e9dfe02b283e29d67c224ab6f86c3b9c[/b].
+Segue abaixo os patches da tradução, para download. Estão em formato IPS, e vocês podem aplicá-los através de programas como [url=https://www.romhacking.net/utilities/1040/"]Floating IPS[/url] ou similares. O patch deve ser aplicado na rom [b]Metroid - Zero Mission (U) [!].gba[/b], com header, de crc [b]5C61A844[/b] / md5sum [b]ebbce58109988b6da61ebb06c7a432d5[/b].
 
 [url="https://github.com/leomontenegro6/metroid-zero-mission-traducao-ptbr/releases"][i]Download[/i][/url]
-
